@@ -1,68 +1,28 @@
 @import palette
 
-for bc in 'bg''txt'
+for bc in 'txt''bg''hover'
+	color(colors,accent=null)
+		sep = accent is null?null:':'
+		if bc is 'txt'
+			[color~=\"txt:{colors}{sep}{accent}\"]
+				color palette(colors,accent is null?'500':accent)[0]
+		if bc is 'bg'
+			[color~=\"bg:{colors}{sep}{accent}\"]
+				background-color palette(colors,accent is null?'500':accent)[0]
+				color palette(colors,accent is null?'500':accent)[1]
+		if bc is 'hover'
+			[color~=\"hover:{colors}{sep}{accent}\"]
+				&:hover,&:focus
+					background-color palette(colors,accent is null?'500':accent)[0]
+					color palette(colors,accent is null?'500':accent)[1]
 
 	for colors in Red Pink Purple DeepPurple Indigo Blue LightBlue Cyan Teal Green LightGreen Lime Yellow Amber Orange DeepOrange
-		[color~=\"{bc}:{colors}\"]
-			{(bc is 'txt'?'color':'background-color')} palette(colors,'500')
-		for accent in '50''100''200''300''400''500''600''700''800''900''A100''A200''A400''A700'
-			[color~=\"{bc}:{colors}:{accent}\"]
-				{(bc is 'txt'?'color':'background-color')} palette(colors,accent)
+		for accent in null'50''100''200''300''400''500''600''700''800''900''A100''A200''A400''A700'
+			color(colors,accent)
 
 	for colors in Brown Grey BlueGrey
-		[color~=\"{bc}:{colors}\"]
-			{(bc is 'txt'?'color':'background-color')} palette(colors,'500')
-		for accent in '50''100''200''300''400''500''600''700''800''900'
-			[color~=\"{bc}:{colors}:{accent}\"]
-				{(bc is 'txt'?'color':'background-color')} palette(colors,accent)
+		for accent in null'50''100''200''300''400''500''600''700''800''900'
+			color(colors,accent)
 
-	for colors in colors = White white, Black black
-		[color~=\"{bc}:{colors[0]}\"]
-			{(bc is 'txt'?'color':'background-color')} colors[1]
-
-
-white(color,grade)
-	sep = grade is null?null:':'
-	[color~=\"bg:{color}{sep}{grade}\"]
-		color white
-
-for color in Pink Purple DeepPurple Indigo Brown
-	for grade in null'300''400''500''600''700''800''900'
-		white(color,grade)
-
-for grade in null'400''500''600''700''800''900'
-	white(Red,grade)
-	white(BlueGrey,grade)
-
-for color in Blue DeepOrange Teal
-	for grade in null'500''600''700''800''900'
-		white(color,grade)
-
-for color in LightBlue Green Grey
-	for grade in '600''700''800''900'
-		white(color,grade)
-
-for grade in '700''800''900'
-	white(Cyan,grade)
-	white(LightGreen,grade)
-
-white(Orange,'800')
-white(Orange,'900')
-
-white(Lime,'900')
-
-white(Amber,'900')
-white(Yellow,'900')
-
-for color in Pink Purple DeepPurple Indigo Red Blue
-	for grade in A200 A400 A700
-		white(color,grade)
-
-white(DeepOrange,A400)
-white(DeepOrange,A700)
-
-white(LightBlue,A400)
-white(LightBlue,A700)
-
-for color in Teal Green Cyan LightGreen Orange Lime Yellow Amber
-	white(color,A700)
+	color(Black,null)
+	color(White,null)

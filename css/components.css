@@ -26,7 +26,6 @@ html {
 [buttons]>*:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  margin-left: 1px;
 }
 [buttons]>*:not(:last-child) {
   border-top-right-radius: 0;
@@ -92,12 +91,6 @@ button:after {
   justify-content: space-around;
   margin: 0.3em 0;
 }
-[card] header div strong {
-  color: #37474f;
-}
-[card] header div small {
-  color: #607d8b;
-}
 [card] img {
   width: 100%;
   object-fit: cover;
@@ -111,7 +104,6 @@ button:after {
   text-align: center;
 }
 [card] figcaption {
-  color: #37474f;
   margin: 0;
   padding: 1em;
 }
@@ -129,15 +121,11 @@ button:after {
   flex: 1 1 auto;
   font: 1em/3em Roboto;
   outline: none;
-  background: none;
   border: none;
-  color: #37474f;
 }
 [card] [buttons] a:hover,
 [card] [buttons] button:hover,
 [card] [buttons] a:focus,
 [card] [buttons] button:focus {
-  color: #fff;
-  background: #37474f;
   outline: none;
 }
