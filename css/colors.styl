@@ -1,17 +1,17 @@
 @import palette
 
-for bc in 'txt''bg''hover'
+for bc in 'txt''bg''action'
 	color(colors,accent=null)
 		sep = accent is null?null:':'
 		if bc is 'txt'
-			[color~=\"txt:{colors}{sep}{accent}\"]
+			[color~=\"{bc}:{colors}{sep}{accent}\"]
 				color palette(colors,accent is null?'500':accent)[0]
 		if bc is 'bg'
-			[color~=\"bg:{colors}{sep}{accent}\"]
+			[color~=\"{bc}:{colors}{sep}{accent}\"]
 				background-color palette(colors,accent is null?'500':accent)[0]
 				color palette(colors,accent is null?'500':accent)[1]
-		if bc is 'hover'
-			[color~=\"hover:{colors}{sep}{accent}\"]
+		if bc is 'action'
+			[color~=\"{bc}:{colors}{sep}{accent}\"]
 				&:hover,&:focus
 					background-color palette(colors,accent is null?'500':accent)[0]
 					color palette(colors,accent is null?'500':accent)[1]

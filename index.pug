@@ -20,7 +20,7 @@ html(lang="es-ES")
 			div
 			div(grid="1366:justify:between 1920:justify:around 360:1/1:21.9 640:1/2:21.9 800:1/2:21.9 1280:1/3:21.9 1366:1/4:16.9 1920:1/4:16.9")
 				div(cell="640:1/1:21.9 800:1/1:21.9")
-					figure(card color="bg:BlueGrey")
+					figure(card="radius" color="bg:Green:900")
 						header
 							img(src="img/face.png")
 							div
@@ -28,18 +28,21 @@ html(lang="es-ES")
 								small Aventurero
 						img(src="img/1.jpg")
 						h3 Diez años de teletrabajo
-						figcaption Tras diez años de teletrabajo, esto puedo decir sobre los mitos y realidad de trabajar desde casa.
+						figcaption Tras diez años de teletrabajo, esto puedo decir sobre los mitos y realidades de trabajar desde casa.
 				div(cell)
-					figure(card color="bg:Orange:800")
+					figure(card="radius" color="bg:BlueGrey:700")
 						img(src="img/2.jpg")
 						h3 Octava beta de macOS Sierra
-						figcaption(color="BlueGrey:900") ¡Betas! La octava de macOS Sierra 10.12.4 y la séptima de watchOS 3.2 ya disponibles.
-						footer(buttons)
-							a(href="#" before="folder" color="bg:Orange:800 hover:DeepOrange:800") MacBook
-							a(href="#" before="folder" color="bg:Orange:800 hover:DeepOrange:800") Pro
+						figcaption() ¡Betas! La octava de macOS Sierra 10.12.4 y la séptima de watchOS 3.2 ya disponibles.
+						footer(buttons="border gradient")
+							a(href="#" before="folder" color="action:BlueGrey:900") MacBook
+							a(href="#" before="folder" color="action:BlueGrey:900") Pro
 				div(cell)
-					figure(card)
+					figure(card="radius")
 						img(src="img/3.jpg")
 						h3 Séptima beta de iOS
 						figcaption Apple lanza la séptima beta de iOS 10.3 y macOS 10.12.4 para desarrolladores.
+						footer(buttons="border gradient")
+							a(href="#" before="folder" color="action:Grey:200") MacOS
+							a(href="#" before="folder" color="action:Grey:200") Sierra
 		footer(color="bg:BlueGrey") FOOTER

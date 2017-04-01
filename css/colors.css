@@ -1923,1378 +1923,1378 @@
   background-color: #fff;
   color: #000;
 }
-[color~="hover:Red"]:hover,
-[color~="hover:Red"]:focus {
+[color~="action:Red"]:hover,
+[color~="action:Red"]:focus {
   background-color: #f44336;
   color: #fff;
 }
-[color~="hover:Red:50"]:hover,
-[color~="hover:Red:50"]:focus {
+[color~="action:Red:50"]:hover,
+[color~="action:Red:50"]:focus {
   background-color: #ffebee;
   color: #000;
 }
-[color~="hover:Red:100"]:hover,
-[color~="hover:Red:100"]:focus {
+[color~="action:Red:100"]:hover,
+[color~="action:Red:100"]:focus {
   background-color: #ffcdd2;
   color: #000;
 }
-[color~="hover:Red:200"]:hover,
-[color~="hover:Red:200"]:focus {
+[color~="action:Red:200"]:hover,
+[color~="action:Red:200"]:focus {
   background-color: #ef9a9a;
   color: #000;
 }
-[color~="hover:Red:300"]:hover,
-[color~="hover:Red:300"]:focus {
+[color~="action:Red:300"]:hover,
+[color~="action:Red:300"]:focus {
   background-color: #e57373;
   color: #000;
 }
-[color~="hover:Red:400"]:hover,
-[color~="hover:Red:400"]:focus {
+[color~="action:Red:400"]:hover,
+[color~="action:Red:400"]:focus {
   background-color: #ef5350;
   color: #fff;
 }
-[color~="hover:Red:500"]:hover,
-[color~="hover:Red:500"]:focus {
+[color~="action:Red:500"]:hover,
+[color~="action:Red:500"]:focus {
   background-color: #f44336;
   color: #fff;
 }
-[color~="hover:Red:600"]:hover,
-[color~="hover:Red:600"]:focus {
+[color~="action:Red:600"]:hover,
+[color~="action:Red:600"]:focus {
   background-color: #e53935;
   color: #fff;
 }
-[color~="hover:Red:700"]:hover,
-[color~="hover:Red:700"]:focus {
+[color~="action:Red:700"]:hover,
+[color~="action:Red:700"]:focus {
   background-color: #d32f2f;
   color: #fff;
 }
-[color~="hover:Red:800"]:hover,
-[color~="hover:Red:800"]:focus {
+[color~="action:Red:800"]:hover,
+[color~="action:Red:800"]:focus {
   background-color: #c62828;
   color: #fff;
 }
-[color~="hover:Red:900"]:hover,
-[color~="hover:Red:900"]:focus {
+[color~="action:Red:900"]:hover,
+[color~="action:Red:900"]:focus {
   background-color: #b71c1c;
   color: #fff;
 }
-[color~="hover:Red:A100"]:hover,
-[color~="hover:Red:A100"]:focus {
+[color~="action:Red:A100"]:hover,
+[color~="action:Red:A100"]:focus {
   background-color: #ff8a80;
   color: #000;
 }
-[color~="hover:Red:A200"]:hover,
-[color~="hover:Red:A200"]:focus {
+[color~="action:Red:A200"]:hover,
+[color~="action:Red:A200"]:focus {
   background-color: #ff5252;
   color: #fff;
 }
-[color~="hover:Red:A400"]:hover,
-[color~="hover:Red:A400"]:focus {
+[color~="action:Red:A400"]:hover,
+[color~="action:Red:A400"]:focus {
   background-color: #ff1744;
   color: #fff;
 }
-[color~="hover:Red:A700"]:hover,
-[color~="hover:Red:A700"]:focus {
+[color~="action:Red:A700"]:hover,
+[color~="action:Red:A700"]:focus {
   background-color: #d50000;
   color: #fff;
 }
-[color~="hover:Pink"]:hover,
-[color~="hover:Pink"]:focus {
+[color~="action:Pink"]:hover,
+[color~="action:Pink"]:focus {
   background-color: #e91e63;
   color: #fff;
 }
-[color~="hover:Pink:50"]:hover,
-[color~="hover:Pink:50"]:focus {
+[color~="action:Pink:50"]:hover,
+[color~="action:Pink:50"]:focus {
   background-color: #fce4ec;
   color: #000;
 }
-[color~="hover:Pink:100"]:hover,
-[color~="hover:Pink:100"]:focus {
+[color~="action:Pink:100"]:hover,
+[color~="action:Pink:100"]:focus {
   background-color: #f8bbd0;
   color: #000;
 }
-[color~="hover:Pink:200"]:hover,
-[color~="hover:Pink:200"]:focus {
+[color~="action:Pink:200"]:hover,
+[color~="action:Pink:200"]:focus {
   background-color: #f48fb1;
   color: #000;
 }
-[color~="hover:Pink:300"]:hover,
-[color~="hover:Pink:300"]:focus {
+[color~="action:Pink:300"]:hover,
+[color~="action:Pink:300"]:focus {
   background-color: #f06292;
   color: #fff;
 }
-[color~="hover:Pink:400"]:hover,
-[color~="hover:Pink:400"]:focus {
+[color~="action:Pink:400"]:hover,
+[color~="action:Pink:400"]:focus {
   background-color: #ec407a;
   color: #fff;
 }
-[color~="hover:Pink:500"]:hover,
-[color~="hover:Pink:500"]:focus {
+[color~="action:Pink:500"]:hover,
+[color~="action:Pink:500"]:focus {
   background-color: #e91e63;
   color: #fff;
 }
-[color~="hover:Pink:600"]:hover,
-[color~="hover:Pink:600"]:focus {
+[color~="action:Pink:600"]:hover,
+[color~="action:Pink:600"]:focus {
   background-color: #d81b60;
   color: #fff;
 }
-[color~="hover:Pink:700"]:hover,
-[color~="hover:Pink:700"]:focus {
+[color~="action:Pink:700"]:hover,
+[color~="action:Pink:700"]:focus {
   background-color: #c2185b;
   color: #fff;
 }
-[color~="hover:Pink:800"]:hover,
-[color~="hover:Pink:800"]:focus {
+[color~="action:Pink:800"]:hover,
+[color~="action:Pink:800"]:focus {
   background-color: #ad1457;
   color: #fff;
 }
-[color~="hover:Pink:900"]:hover,
-[color~="hover:Pink:900"]:focus {
+[color~="action:Pink:900"]:hover,
+[color~="action:Pink:900"]:focus {
   background-color: #880e4f;
   color: #fff;
 }
-[color~="hover:Pink:A100"]:hover,
-[color~="hover:Pink:A100"]:focus {
+[color~="action:Pink:A100"]:hover,
+[color~="action:Pink:A100"]:focus {
   background-color: #ff80ab;
   color: #000;
 }
-[color~="hover:Pink:A200"]:hover,
-[color~="hover:Pink:A200"]:focus {
+[color~="action:Pink:A200"]:hover,
+[color~="action:Pink:A200"]:focus {
   background-color: #ff4081;
   color: #fff;
 }
-[color~="hover:Pink:A400"]:hover,
-[color~="hover:Pink:A400"]:focus {
+[color~="action:Pink:A400"]:hover,
+[color~="action:Pink:A400"]:focus {
   background-color: #f50057;
   color: #fff;
 }
-[color~="hover:Pink:A700"]:hover,
-[color~="hover:Pink:A700"]:focus {
+[color~="action:Pink:A700"]:hover,
+[color~="action:Pink:A700"]:focus {
   background-color: #c51162;
   color: #fff;
 }
-[color~="hover:Purple"]:hover,
-[color~="hover:Purple"]:focus {
+[color~="action:Purple"]:hover,
+[color~="action:Purple"]:focus {
   background-color: #9c27b0;
   color: #fff;
 }
-[color~="hover:Purple:50"]:hover,
-[color~="hover:Purple:50"]:focus {
+[color~="action:Purple:50"]:hover,
+[color~="action:Purple:50"]:focus {
   background-color: #f3e5f5;
   color: #000;
 }
-[color~="hover:Purple:100"]:hover,
-[color~="hover:Purple:100"]:focus {
+[color~="action:Purple:100"]:hover,
+[color~="action:Purple:100"]:focus {
   background-color: #e1bee7;
   color: #000;
 }
-[color~="hover:Purple:200"]:hover,
-[color~="hover:Purple:200"]:focus {
+[color~="action:Purple:200"]:hover,
+[color~="action:Purple:200"]:focus {
   background-color: #ce93d8;
   color: #000;
 }
-[color~="hover:Purple:300"]:hover,
-[color~="hover:Purple:300"]:focus {
+[color~="action:Purple:300"]:hover,
+[color~="action:Purple:300"]:focus {
   background-color: #ba68c8;
   color: #fff;
 }
-[color~="hover:Purple:400"]:hover,
-[color~="hover:Purple:400"]:focus {
+[color~="action:Purple:400"]:hover,
+[color~="action:Purple:400"]:focus {
   background-color: #ab47bc;
   color: #fff;
 }
-[color~="hover:Purple:500"]:hover,
-[color~="hover:Purple:500"]:focus {
+[color~="action:Purple:500"]:hover,
+[color~="action:Purple:500"]:focus {
   background-color: #9c27b0;
   color: #fff;
 }
-[color~="hover:Purple:600"]:hover,
-[color~="hover:Purple:600"]:focus {
+[color~="action:Purple:600"]:hover,
+[color~="action:Purple:600"]:focus {
   background-color: #8e24aa;
   color: #fff;
 }
-[color~="hover:Purple:700"]:hover,
-[color~="hover:Purple:700"]:focus {
+[color~="action:Purple:700"]:hover,
+[color~="action:Purple:700"]:focus {
   background-color: #7b1fa2;
   color: #fff;
 }
-[color~="hover:Purple:800"]:hover,
-[color~="hover:Purple:800"]:focus {
+[color~="action:Purple:800"]:hover,
+[color~="action:Purple:800"]:focus {
   background-color: #6a1b9a;
   color: #fff;
 }
-[color~="hover:Purple:900"]:hover,
-[color~="hover:Purple:900"]:focus {
+[color~="action:Purple:900"]:hover,
+[color~="action:Purple:900"]:focus {
   background-color: #4a148c;
   color: #fff;
 }
-[color~="hover:Purple:A100"]:hover,
-[color~="hover:Purple:A100"]:focus {
+[color~="action:Purple:A100"]:hover,
+[color~="action:Purple:A100"]:focus {
   background-color: #ea80fc;
   color: #000;
 }
-[color~="hover:Purple:A200"]:hover,
-[color~="hover:Purple:A200"]:focus {
+[color~="action:Purple:A200"]:hover,
+[color~="action:Purple:A200"]:focus {
   background-color: #e040fb;
   color: #fff;
 }
-[color~="hover:Purple:A400"]:hover,
-[color~="hover:Purple:A400"]:focus {
+[color~="action:Purple:A400"]:hover,
+[color~="action:Purple:A400"]:focus {
   background-color: #d500f9;
   color: #fff;
 }
-[color~="hover:Purple:A700"]:hover,
-[color~="hover:Purple:A700"]:focus {
+[color~="action:Purple:A700"]:hover,
+[color~="action:Purple:A700"]:focus {
   background-color: #a0f;
   color: #fff;
 }
-[color~="hover:DeepPurple"]:hover,
-[color~="hover:DeepPurple"]:focus {
+[color~="action:DeepPurple"]:hover,
+[color~="action:DeepPurple"]:focus {
   background-color: #673ab7;
   color: #fff;
 }
-[color~="hover:DeepPurple:50"]:hover,
-[color~="hover:DeepPurple:50"]:focus {
+[color~="action:DeepPurple:50"]:hover,
+[color~="action:DeepPurple:50"]:focus {
   background-color: #ede7f6;
   color: #000;
 }
-[color~="hover:DeepPurple:100"]:hover,
-[color~="hover:DeepPurple:100"]:focus {
+[color~="action:DeepPurple:100"]:hover,
+[color~="action:DeepPurple:100"]:focus {
   background-color: #d1c4e9;
   color: #000;
 }
-[color~="hover:DeepPurple:200"]:hover,
-[color~="hover:DeepPurple:200"]:focus {
+[color~="action:DeepPurple:200"]:hover,
+[color~="action:DeepPurple:200"]:focus {
   background-color: #b39ddb;
   color: #000;
 }
-[color~="hover:DeepPurple:300"]:hover,
-[color~="hover:DeepPurple:300"]:focus {
+[color~="action:DeepPurple:300"]:hover,
+[color~="action:DeepPurple:300"]:focus {
   background-color: #9575cd;
   color: #fff;
 }
-[color~="hover:DeepPurple:400"]:hover,
-[color~="hover:DeepPurple:400"]:focus {
+[color~="action:DeepPurple:400"]:hover,
+[color~="action:DeepPurple:400"]:focus {
   background-color: #7e57c2;
   color: #fff;
 }
-[color~="hover:DeepPurple:500"]:hover,
-[color~="hover:DeepPurple:500"]:focus {
+[color~="action:DeepPurple:500"]:hover,
+[color~="action:DeepPurple:500"]:focus {
   background-color: #673ab7;
   color: #fff;
 }
-[color~="hover:DeepPurple:600"]:hover,
-[color~="hover:DeepPurple:600"]:focus {
+[color~="action:DeepPurple:600"]:hover,
+[color~="action:DeepPurple:600"]:focus {
   background-color: #5e35b1;
   color: #fff;
 }
-[color~="hover:DeepPurple:700"]:hover,
-[color~="hover:DeepPurple:700"]:focus {
+[color~="action:DeepPurple:700"]:hover,
+[color~="action:DeepPurple:700"]:focus {
   background-color: #512da8;
   color: #fff;
 }
-[color~="hover:DeepPurple:800"]:hover,
-[color~="hover:DeepPurple:800"]:focus {
+[color~="action:DeepPurple:800"]:hover,
+[color~="action:DeepPurple:800"]:focus {
   background-color: #4527a0;
   color: #fff;
 }
-[color~="hover:DeepPurple:900"]:hover,
-[color~="hover:DeepPurple:900"]:focus {
+[color~="action:DeepPurple:900"]:hover,
+[color~="action:DeepPurple:900"]:focus {
   background-color: #311b92;
   color: #fff;
 }
-[color~="hover:DeepPurple:A100"]:hover,
-[color~="hover:DeepPurple:A100"]:focus {
+[color~="action:DeepPurple:A100"]:hover,
+[color~="action:DeepPurple:A100"]:focus {
   background-color: #b388ff;
   color: #000;
 }
-[color~="hover:DeepPurple:A200"]:hover,
-[color~="hover:DeepPurple:A200"]:focus {
+[color~="action:DeepPurple:A200"]:hover,
+[color~="action:DeepPurple:A200"]:focus {
   background-color: #7c4dff;
   color: #fff;
 }
-[color~="hover:DeepPurple:A400"]:hover,
-[color~="hover:DeepPurple:A400"]:focus {
+[color~="action:DeepPurple:A400"]:hover,
+[color~="action:DeepPurple:A400"]:focus {
   background-color: #651fff;
   color: #fff;
 }
-[color~="hover:DeepPurple:A700"]:hover,
-[color~="hover:DeepPurple:A700"]:focus {
+[color~="action:DeepPurple:A700"]:hover,
+[color~="action:DeepPurple:A700"]:focus {
   background-color: #6200ea;
   color: #fff;
 }
-[color~="hover:Indigo"]:hover,
-[color~="hover:Indigo"]:focus {
+[color~="action:Indigo"]:hover,
+[color~="action:Indigo"]:focus {
   background-color: #3f51b5;
   color: #fff;
 }
-[color~="hover:Indigo:50"]:hover,
-[color~="hover:Indigo:50"]:focus {
+[color~="action:Indigo:50"]:hover,
+[color~="action:Indigo:50"]:focus {
   background-color: #e8eaf6;
   color: #000;
 }
-[color~="hover:Indigo:100"]:hover,
-[color~="hover:Indigo:100"]:focus {
+[color~="action:Indigo:100"]:hover,
+[color~="action:Indigo:100"]:focus {
   background-color: #c5cae9;
   color: #000;
 }
-[color~="hover:Indigo:200"]:hover,
-[color~="hover:Indigo:200"]:focus {
+[color~="action:Indigo:200"]:hover,
+[color~="action:Indigo:200"]:focus {
   background-color: #9fa8da;
   color: #000;
 }
-[color~="hover:Indigo:300"]:hover,
-[color~="hover:Indigo:300"]:focus {
+[color~="action:Indigo:300"]:hover,
+[color~="action:Indigo:300"]:focus {
   background-color: #7986cb;
   color: #fff;
 }
-[color~="hover:Indigo:400"]:hover,
-[color~="hover:Indigo:400"]:focus {
+[color~="action:Indigo:400"]:hover,
+[color~="action:Indigo:400"]:focus {
   background-color: #5c6bc0;
   color: #fff;
 }
-[color~="hover:Indigo:500"]:hover,
-[color~="hover:Indigo:500"]:focus {
+[color~="action:Indigo:500"]:hover,
+[color~="action:Indigo:500"]:focus {
   background-color: #3f51b5;
   color: #fff;
 }
-[color~="hover:Indigo:600"]:hover,
-[color~="hover:Indigo:600"]:focus {
+[color~="action:Indigo:600"]:hover,
+[color~="action:Indigo:600"]:focus {
   background-color: #3949ab;
   color: #fff;
 }
-[color~="hover:Indigo:700"]:hover,
-[color~="hover:Indigo:700"]:focus {
+[color~="action:Indigo:700"]:hover,
+[color~="action:Indigo:700"]:focus {
   background-color: #303f9f;
   color: #fff;
 }
-[color~="hover:Indigo:800"]:hover,
-[color~="hover:Indigo:800"]:focus {
+[color~="action:Indigo:800"]:hover,
+[color~="action:Indigo:800"]:focus {
   background-color: #283593;
   color: #fff;
 }
-[color~="hover:Indigo:900"]:hover,
-[color~="hover:Indigo:900"]:focus {
+[color~="action:Indigo:900"]:hover,
+[color~="action:Indigo:900"]:focus {
   background-color: #1a237e;
   color: #fff;
 }
-[color~="hover:Indigo:A100"]:hover,
-[color~="hover:Indigo:A100"]:focus {
+[color~="action:Indigo:A100"]:hover,
+[color~="action:Indigo:A100"]:focus {
   background-color: #8c9eff;
   color: #000;
 }
-[color~="hover:Indigo:A200"]:hover,
-[color~="hover:Indigo:A200"]:focus {
+[color~="action:Indigo:A200"]:hover,
+[color~="action:Indigo:A200"]:focus {
   background-color: #536dfe;
   color: #fff;
 }
-[color~="hover:Indigo:A400"]:hover,
-[color~="hover:Indigo:A400"]:focus {
+[color~="action:Indigo:A400"]:hover,
+[color~="action:Indigo:A400"]:focus {
   background-color: #3d5afe;
   color: #fff;
 }
-[color~="hover:Indigo:A700"]:hover,
-[color~="hover:Indigo:A700"]:focus {
+[color~="action:Indigo:A700"]:hover,
+[color~="action:Indigo:A700"]:focus {
   background-color: #304ffe;
   color: #fff;
 }
-[color~="hover:Blue"]:hover,
-[color~="hover:Blue"]:focus {
+[color~="action:Blue"]:hover,
+[color~="action:Blue"]:focus {
   background-color: #2196f3;
   color: #fff;
 }
-[color~="hover:Blue:50"]:hover,
-[color~="hover:Blue:50"]:focus {
+[color~="action:Blue:50"]:hover,
+[color~="action:Blue:50"]:focus {
   background-color: #e3f2fd;
   color: #000;
 }
-[color~="hover:Blue:100"]:hover,
-[color~="hover:Blue:100"]:focus {
+[color~="action:Blue:100"]:hover,
+[color~="action:Blue:100"]:focus {
   background-color: #bbdefb;
   color: #000;
 }
-[color~="hover:Blue:200"]:hover,
-[color~="hover:Blue:200"]:focus {
+[color~="action:Blue:200"]:hover,
+[color~="action:Blue:200"]:focus {
   background-color: #90caf9;
   color: #000;
 }
-[color~="hover:Blue:300"]:hover,
-[color~="hover:Blue:300"]:focus {
+[color~="action:Blue:300"]:hover,
+[color~="action:Blue:300"]:focus {
   background-color: #64b5f6;
   color: #000;
 }
-[color~="hover:Blue:400"]:hover,
-[color~="hover:Blue:400"]:focus {
+[color~="action:Blue:400"]:hover,
+[color~="action:Blue:400"]:focus {
   background-color: #42a5f5;
   color: #000;
 }
-[color~="hover:Blue:500"]:hover,
-[color~="hover:Blue:500"]:focus {
+[color~="action:Blue:500"]:hover,
+[color~="action:Blue:500"]:focus {
   background-color: #2196f3;
   color: #fff;
 }
-[color~="hover:Blue:600"]:hover,
-[color~="hover:Blue:600"]:focus {
+[color~="action:Blue:600"]:hover,
+[color~="action:Blue:600"]:focus {
   background-color: #1e88e5;
   color: #fff;
 }
-[color~="hover:Blue:700"]:hover,
-[color~="hover:Blue:700"]:focus {
+[color~="action:Blue:700"]:hover,
+[color~="action:Blue:700"]:focus {
   background-color: #1976d2;
   color: #fff;
 }
-[color~="hover:Blue:800"]:hover,
-[color~="hover:Blue:800"]:focus {
+[color~="action:Blue:800"]:hover,
+[color~="action:Blue:800"]:focus {
   background-color: #1565c0;
   color: #fff;
 }
-[color~="hover:Blue:900"]:hover,
-[color~="hover:Blue:900"]:focus {
+[color~="action:Blue:900"]:hover,
+[color~="action:Blue:900"]:focus {
   background-color: #0d47a1;
   color: #fff;
 }
-[color~="hover:Blue:A100"]:hover,
-[color~="hover:Blue:A100"]:focus {
+[color~="action:Blue:A100"]:hover,
+[color~="action:Blue:A100"]:focus {
   background-color: #82b1ff;
   color: #000;
 }
-[color~="hover:Blue:A200"]:hover,
-[color~="hover:Blue:A200"]:focus {
+[color~="action:Blue:A200"]:hover,
+[color~="action:Blue:A200"]:focus {
   background-color: #448aff;
   color: #fff;
 }
-[color~="hover:Blue:A400"]:hover,
-[color~="hover:Blue:A400"]:focus {
+[color~="action:Blue:A400"]:hover,
+[color~="action:Blue:A400"]:focus {
   background-color: #2979ff;
   color: #fff;
 }
-[color~="hover:Blue:A700"]:hover,
-[color~="hover:Blue:A700"]:focus {
+[color~="action:Blue:A700"]:hover,
+[color~="action:Blue:A700"]:focus {
   background-color: #2962ff;
   color: #fff;
 }
-[color~="hover:LightBlue"]:hover,
-[color~="hover:LightBlue"]:focus {
+[color~="action:LightBlue"]:hover,
+[color~="action:LightBlue"]:focus {
   background-color: #03a9f4;
   color: #000;
 }
-[color~="hover:LightBlue:50"]:hover,
-[color~="hover:LightBlue:50"]:focus {
+[color~="action:LightBlue:50"]:hover,
+[color~="action:LightBlue:50"]:focus {
   background-color: #e1f5fe;
   color: #000;
 }
-[color~="hover:LightBlue:100"]:hover,
-[color~="hover:LightBlue:100"]:focus {
+[color~="action:LightBlue:100"]:hover,
+[color~="action:LightBlue:100"]:focus {
   background-color: #b3e5fc;
   color: #000;
 }
-[color~="hover:LightBlue:200"]:hover,
-[color~="hover:LightBlue:200"]:focus {
+[color~="action:LightBlue:200"]:hover,
+[color~="action:LightBlue:200"]:focus {
   background-color: #81d4fa;
   color: #000;
 }
-[color~="hover:LightBlue:300"]:hover,
-[color~="hover:LightBlue:300"]:focus {
+[color~="action:LightBlue:300"]:hover,
+[color~="action:LightBlue:300"]:focus {
   background-color: #4fc3f7;
   color: #000;
 }
-[color~="hover:LightBlue:400"]:hover,
-[color~="hover:LightBlue:400"]:focus {
+[color~="action:LightBlue:400"]:hover,
+[color~="action:LightBlue:400"]:focus {
   background-color: #29b6f6;
   color: #000;
 }
-[color~="hover:LightBlue:500"]:hover,
-[color~="hover:LightBlue:500"]:focus {
+[color~="action:LightBlue:500"]:hover,
+[color~="action:LightBlue:500"]:focus {
   background-color: #03a9f4;
   color: #000;
 }
-[color~="hover:LightBlue:600"]:hover,
-[color~="hover:LightBlue:600"]:focus {
+[color~="action:LightBlue:600"]:hover,
+[color~="action:LightBlue:600"]:focus {
   background-color: #039be5;
   color: #fff;
 }
-[color~="hover:LightBlue:700"]:hover,
-[color~="hover:LightBlue:700"]:focus {
+[color~="action:LightBlue:700"]:hover,
+[color~="action:LightBlue:700"]:focus {
   background-color: #0288d1;
   color: #fff;
 }
-[color~="hover:LightBlue:800"]:hover,
-[color~="hover:LightBlue:800"]:focus {
+[color~="action:LightBlue:800"]:hover,
+[color~="action:LightBlue:800"]:focus {
   background-color: #0277bd;
   color: #fff;
 }
-[color~="hover:LightBlue:900"]:hover,
-[color~="hover:LightBlue:900"]:focus {
+[color~="action:LightBlue:900"]:hover,
+[color~="action:LightBlue:900"]:focus {
   background-color: #01579b;
   color: #fff;
 }
-[color~="hover:LightBlue:A100"]:hover,
-[color~="hover:LightBlue:A100"]:focus {
+[color~="action:LightBlue:A100"]:hover,
+[color~="action:LightBlue:A100"]:focus {
   background-color: #80d8ff;
   color: #000;
 }
-[color~="hover:LightBlue:A200"]:hover,
-[color~="hover:LightBlue:A200"]:focus {
+[color~="action:LightBlue:A200"]:hover,
+[color~="action:LightBlue:A200"]:focus {
   background-color: #40c4ff;
   color: #000;
 }
-[color~="hover:LightBlue:A400"]:hover,
-[color~="hover:LightBlue:A400"]:focus {
+[color~="action:LightBlue:A400"]:hover,
+[color~="action:LightBlue:A400"]:focus {
   background-color: #00b0ff;
   color: #000;
 }
-[color~="hover:LightBlue:A700"]:hover,
-[color~="hover:LightBlue:A700"]:focus {
+[color~="action:LightBlue:A700"]:hover,
+[color~="action:LightBlue:A700"]:focus {
   background-color: #0091ea;
   color: #fff;
 }
-[color~="hover:Cyan"]:hover,
-[color~="hover:Cyan"]:focus {
+[color~="action:Cyan"]:hover,
+[color~="action:Cyan"]:focus {
   background-color: #00bcd4;
   color: #000;
 }
-[color~="hover:Cyan:50"]:hover,
-[color~="hover:Cyan:50"]:focus {
+[color~="action:Cyan:50"]:hover,
+[color~="action:Cyan:50"]:focus {
   background-color: #e0f7fa;
   color: #000;
 }
-[color~="hover:Cyan:100"]:hover,
-[color~="hover:Cyan:100"]:focus {
+[color~="action:Cyan:100"]:hover,
+[color~="action:Cyan:100"]:focus {
   background-color: #b2ebf2;
   color: #000;
 }
-[color~="hover:Cyan:200"]:hover,
-[color~="hover:Cyan:200"]:focus {
+[color~="action:Cyan:200"]:hover,
+[color~="action:Cyan:200"]:focus {
   background-color: #80deea;
   color: #000;
 }
-[color~="hover:Cyan:300"]:hover,
-[color~="hover:Cyan:300"]:focus {
+[color~="action:Cyan:300"]:hover,
+[color~="action:Cyan:300"]:focus {
   background-color: #4dd0e1;
   color: #000;
 }
-[color~="hover:Cyan:400"]:hover,
-[color~="hover:Cyan:400"]:focus {
+[color~="action:Cyan:400"]:hover,
+[color~="action:Cyan:400"]:focus {
   background-color: #26c6da;
   color: #000;
 }
-[color~="hover:Cyan:500"]:hover,
-[color~="hover:Cyan:500"]:focus {
+[color~="action:Cyan:500"]:hover,
+[color~="action:Cyan:500"]:focus {
   background-color: #00bcd4;
   color: #000;
 }
-[color~="hover:Cyan:600"]:hover,
-[color~="hover:Cyan:600"]:focus {
+[color~="action:Cyan:600"]:hover,
+[color~="action:Cyan:600"]:focus {
   background-color: #00acc1;
   color: #000;
 }
-[color~="hover:Cyan:700"]:hover,
-[color~="hover:Cyan:700"]:focus {
+[color~="action:Cyan:700"]:hover,
+[color~="action:Cyan:700"]:focus {
   background-color: #0097a7;
   color: #fff;
 }
-[color~="hover:Cyan:800"]:hover,
-[color~="hover:Cyan:800"]:focus {
+[color~="action:Cyan:800"]:hover,
+[color~="action:Cyan:800"]:focus {
   background-color: #00838f;
   color: #fff;
 }
-[color~="hover:Cyan:900"]:hover,
-[color~="hover:Cyan:900"]:focus {
+[color~="action:Cyan:900"]:hover,
+[color~="action:Cyan:900"]:focus {
   background-color: #006064;
   color: #fff;
 }
-[color~="hover:Cyan:A100"]:hover,
-[color~="hover:Cyan:A100"]:focus {
+[color~="action:Cyan:A100"]:hover,
+[color~="action:Cyan:A100"]:focus {
   background-color: #84ffff;
   color: #000;
 }
-[color~="hover:Cyan:A200"]:hover,
-[color~="hover:Cyan:A200"]:focus {
+[color~="action:Cyan:A200"]:hover,
+[color~="action:Cyan:A200"]:focus {
   background-color: #18ffff;
   color: #000;
 }
-[color~="hover:Cyan:A400"]:hover,
-[color~="hover:Cyan:A400"]:focus {
+[color~="action:Cyan:A400"]:hover,
+[color~="action:Cyan:A400"]:focus {
   background-color: #00e5ff;
   color: #000;
 }
-[color~="hover:Cyan:A700"]:hover,
-[color~="hover:Cyan:A700"]:focus {
+[color~="action:Cyan:A700"]:hover,
+[color~="action:Cyan:A700"]:focus {
   background-color: #00b8d4;
   color: #000;
 }
-[color~="hover:Teal"]:hover,
-[color~="hover:Teal"]:focus {
+[color~="action:Teal"]:hover,
+[color~="action:Teal"]:focus {
   background-color: #009688;
   color: #fff;
 }
-[color~="hover:Teal:50"]:hover,
-[color~="hover:Teal:50"]:focus {
+[color~="action:Teal:50"]:hover,
+[color~="action:Teal:50"]:focus {
   background-color: #e0f2f1;
   color: #000;
 }
-[color~="hover:Teal:100"]:hover,
-[color~="hover:Teal:100"]:focus {
+[color~="action:Teal:100"]:hover,
+[color~="action:Teal:100"]:focus {
   background-color: #b2dfdb;
   color: #000;
 }
-[color~="hover:Teal:200"]:hover,
-[color~="hover:Teal:200"]:focus {
+[color~="action:Teal:200"]:hover,
+[color~="action:Teal:200"]:focus {
   background-color: #80cbc4;
   color: #000;
 }
-[color~="hover:Teal:300"]:hover,
-[color~="hover:Teal:300"]:focus {
+[color~="action:Teal:300"]:hover,
+[color~="action:Teal:300"]:focus {
   background-color: #4db6ac;
   color: #000;
 }
-[color~="hover:Teal:400"]:hover,
-[color~="hover:Teal:400"]:focus {
+[color~="action:Teal:400"]:hover,
+[color~="action:Teal:400"]:focus {
   background-color: #26a69a;
   color: #000;
 }
-[color~="hover:Teal:500"]:hover,
-[color~="hover:Teal:500"]:focus {
+[color~="action:Teal:500"]:hover,
+[color~="action:Teal:500"]:focus {
   background-color: #009688;
   color: #fff;
 }
-[color~="hover:Teal:600"]:hover,
-[color~="hover:Teal:600"]:focus {
+[color~="action:Teal:600"]:hover,
+[color~="action:Teal:600"]:focus {
   background-color: #00897b;
   color: #fff;
 }
-[color~="hover:Teal:700"]:hover,
-[color~="hover:Teal:700"]:focus {
+[color~="action:Teal:700"]:hover,
+[color~="action:Teal:700"]:focus {
   background-color: #00796b;
   color: #fff;
 }
-[color~="hover:Teal:800"]:hover,
-[color~="hover:Teal:800"]:focus {
+[color~="action:Teal:800"]:hover,
+[color~="action:Teal:800"]:focus {
   background-color: #00695c;
   color: #fff;
 }
-[color~="hover:Teal:900"]:hover,
-[color~="hover:Teal:900"]:focus {
+[color~="action:Teal:900"]:hover,
+[color~="action:Teal:900"]:focus {
   background-color: #004d40;
   color: #fff;
 }
-[color~="hover:Teal:A100"]:hover,
-[color~="hover:Teal:A100"]:focus {
+[color~="action:Teal:A100"]:hover,
+[color~="action:Teal:A100"]:focus {
   background-color: #a7ffeb;
   color: #000;
 }
-[color~="hover:Teal:A200"]:hover,
-[color~="hover:Teal:A200"]:focus {
+[color~="action:Teal:A200"]:hover,
+[color~="action:Teal:A200"]:focus {
   background-color: #64ffda;
   color: #000;
 }
-[color~="hover:Teal:A400"]:hover,
-[color~="hover:Teal:A400"]:focus {
+[color~="action:Teal:A400"]:hover,
+[color~="action:Teal:A400"]:focus {
   background-color: #1de9b6;
   color: #000;
 }
-[color~="hover:Teal:A700"]:hover,
-[color~="hover:Teal:A700"]:focus {
+[color~="action:Teal:A700"]:hover,
+[color~="action:Teal:A700"]:focus {
   background-color: #00bfa5;
   color: #000;
 }
-[color~="hover:Green"]:hover,
-[color~="hover:Green"]:focus {
+[color~="action:Green"]:hover,
+[color~="action:Green"]:focus {
   background-color: #4caf50;
   color: #000;
 }
-[color~="hover:Green:50"]:hover,
-[color~="hover:Green:50"]:focus {
+[color~="action:Green:50"]:hover,
+[color~="action:Green:50"]:focus {
   background-color: #e8f5e9;
   color: #000;
 }
-[color~="hover:Green:100"]:hover,
-[color~="hover:Green:100"]:focus {
+[color~="action:Green:100"]:hover,
+[color~="action:Green:100"]:focus {
   background-color: #c8e6c9;
   color: #000;
 }
-[color~="hover:Green:200"]:hover,
-[color~="hover:Green:200"]:focus {
+[color~="action:Green:200"]:hover,
+[color~="action:Green:200"]:focus {
   background-color: #a5d6a7;
   color: #000;
 }
-[color~="hover:Green:300"]:hover,
-[color~="hover:Green:300"]:focus {
+[color~="action:Green:300"]:hover,
+[color~="action:Green:300"]:focus {
   background-color: #81c784;
   color: #000;
 }
-[color~="hover:Green:400"]:hover,
-[color~="hover:Green:400"]:focus {
+[color~="action:Green:400"]:hover,
+[color~="action:Green:400"]:focus {
   background-color: #66bb6a;
   color: #000;
 }
-[color~="hover:Green:500"]:hover,
-[color~="hover:Green:500"]:focus {
+[color~="action:Green:500"]:hover,
+[color~="action:Green:500"]:focus {
   background-color: #4caf50;
   color: #000;
 }
-[color~="hover:Green:600"]:hover,
-[color~="hover:Green:600"]:focus {
+[color~="action:Green:600"]:hover,
+[color~="action:Green:600"]:focus {
   background-color: #43a047;
   color: #fff;
 }
-[color~="hover:Green:700"]:hover,
-[color~="hover:Green:700"]:focus {
+[color~="action:Green:700"]:hover,
+[color~="action:Green:700"]:focus {
   background-color: #388e3c;
   color: #fff;
 }
-[color~="hover:Green:800"]:hover,
-[color~="hover:Green:800"]:focus {
+[color~="action:Green:800"]:hover,
+[color~="action:Green:800"]:focus {
   background-color: #2e7d32;
   color: #fff;
 }
-[color~="hover:Green:900"]:hover,
-[color~="hover:Green:900"]:focus {
+[color~="action:Green:900"]:hover,
+[color~="action:Green:900"]:focus {
   background-color: #1b5e20;
   color: #fff;
 }
-[color~="hover:Green:A100"]:hover,
-[color~="hover:Green:A100"]:focus {
+[color~="action:Green:A100"]:hover,
+[color~="action:Green:A100"]:focus {
   background-color: #b9f6ca;
   color: #000;
 }
-[color~="hover:Green:A200"]:hover,
-[color~="hover:Green:A200"]:focus {
+[color~="action:Green:A200"]:hover,
+[color~="action:Green:A200"]:focus {
   background-color: #69f0ae;
   color: #000;
 }
-[color~="hover:Green:A400"]:hover,
-[color~="hover:Green:A400"]:focus {
+[color~="action:Green:A400"]:hover,
+[color~="action:Green:A400"]:focus {
   background-color: #00e676;
   color: #000;
 }
-[color~="hover:Green:A700"]:hover,
-[color~="hover:Green:A700"]:focus {
+[color~="action:Green:A700"]:hover,
+[color~="action:Green:A700"]:focus {
   background-color: #00c853;
   color: #000;
 }
-[color~="hover:LightGreen"]:hover,
-[color~="hover:LightGreen"]:focus {
+[color~="action:LightGreen"]:hover,
+[color~="action:LightGreen"]:focus {
   background-color: #8bc34a;
   color: #000;
 }
-[color~="hover:LightGreen:50"]:hover,
-[color~="hover:LightGreen:50"]:focus {
+[color~="action:LightGreen:50"]:hover,
+[color~="action:LightGreen:50"]:focus {
   background-color: #f1f8e9;
   color: #000;
 }
-[color~="hover:LightGreen:100"]:hover,
-[color~="hover:LightGreen:100"]:focus {
+[color~="action:LightGreen:100"]:hover,
+[color~="action:LightGreen:100"]:focus {
   background-color: #dcedc8;
   color: #000;
 }
-[color~="hover:LightGreen:200"]:hover,
-[color~="hover:LightGreen:200"]:focus {
+[color~="action:LightGreen:200"]:hover,
+[color~="action:LightGreen:200"]:focus {
   background-color: #c5e1a5;
   color: #000;
 }
-[color~="hover:LightGreen:300"]:hover,
-[color~="hover:LightGreen:300"]:focus {
+[color~="action:LightGreen:300"]:hover,
+[color~="action:LightGreen:300"]:focus {
   background-color: #aed581;
   color: #000;
 }
-[color~="hover:LightGreen:400"]:hover,
-[color~="hover:LightGreen:400"]:focus {
+[color~="action:LightGreen:400"]:hover,
+[color~="action:LightGreen:400"]:focus {
   background-color: #9ccc65;
   color: #000;
 }
-[color~="hover:LightGreen:500"]:hover,
-[color~="hover:LightGreen:500"]:focus {
+[color~="action:LightGreen:500"]:hover,
+[color~="action:LightGreen:500"]:focus {
   background-color: #8bc34a;
   color: #000;
 }
-[color~="hover:LightGreen:600"]:hover,
-[color~="hover:LightGreen:600"]:focus {
+[color~="action:LightGreen:600"]:hover,
+[color~="action:LightGreen:600"]:focus {
   background-color: #7cb342;
   color: #000;
 }
-[color~="hover:LightGreen:700"]:hover,
-[color~="hover:LightGreen:700"]:focus {
+[color~="action:LightGreen:700"]:hover,
+[color~="action:LightGreen:700"]:focus {
   background-color: #689f38;
   color: #fff;
 }
-[color~="hover:LightGreen:800"]:hover,
-[color~="hover:LightGreen:800"]:focus {
+[color~="action:LightGreen:800"]:hover,
+[color~="action:LightGreen:800"]:focus {
   background-color: #558b2f;
   color: #fff;
 }
-[color~="hover:LightGreen:900"]:hover,
-[color~="hover:LightGreen:900"]:focus {
+[color~="action:LightGreen:900"]:hover,
+[color~="action:LightGreen:900"]:focus {
   background-color: #33691e;
   color: #fff;
 }
-[color~="hover:LightGreen:A100"]:hover,
-[color~="hover:LightGreen:A100"]:focus {
+[color~="action:LightGreen:A100"]:hover,
+[color~="action:LightGreen:A100"]:focus {
   background-color: #ccff90;
   color: #000;
 }
-[color~="hover:LightGreen:A200"]:hover,
-[color~="hover:LightGreen:A200"]:focus {
+[color~="action:LightGreen:A200"]:hover,
+[color~="action:LightGreen:A200"]:focus {
   background-color: #b2ff59;
   color: #000;
 }
-[color~="hover:LightGreen:A400"]:hover,
-[color~="hover:LightGreen:A400"]:focus {
+[color~="action:LightGreen:A400"]:hover,
+[color~="action:LightGreen:A400"]:focus {
   background-color: #76ff03;
   color: #000;
 }
-[color~="hover:LightGreen:A700"]:hover,
-[color~="hover:LightGreen:A700"]:focus {
+[color~="action:LightGreen:A700"]:hover,
+[color~="action:LightGreen:A700"]:focus {
   background-color: #64dd17;
   color: #000;
 }
-[color~="hover:Lime"]:hover,
-[color~="hover:Lime"]:focus {
+[color~="action:Lime"]:hover,
+[color~="action:Lime"]:focus {
   background-color: #cddc39;
   color: #000;
 }
-[color~="hover:Lime:50"]:hover,
-[color~="hover:Lime:50"]:focus {
+[color~="action:Lime:50"]:hover,
+[color~="action:Lime:50"]:focus {
   background-color: #f9fbe7;
   color: #000;
 }
-[color~="hover:Lime:100"]:hover,
-[color~="hover:Lime:100"]:focus {
+[color~="action:Lime:100"]:hover,
+[color~="action:Lime:100"]:focus {
   background-color: #f0f4c3;
   color: #000;
 }
-[color~="hover:Lime:200"]:hover,
-[color~="hover:Lime:200"]:focus {
+[color~="action:Lime:200"]:hover,
+[color~="action:Lime:200"]:focus {
   background-color: #e6ee9c;
   color: #000;
 }
-[color~="hover:Lime:300"]:hover,
-[color~="hover:Lime:300"]:focus {
+[color~="action:Lime:300"]:hover,
+[color~="action:Lime:300"]:focus {
   background-color: #dce775;
   color: #000;
 }
-[color~="hover:Lime:400"]:hover,
-[color~="hover:Lime:400"]:focus {
+[color~="action:Lime:400"]:hover,
+[color~="action:Lime:400"]:focus {
   background-color: #d4e157;
   color: #000;
 }
-[color~="hover:Lime:500"]:hover,
-[color~="hover:Lime:500"]:focus {
+[color~="action:Lime:500"]:hover,
+[color~="action:Lime:500"]:focus {
   background-color: #cddc39;
   color: #000;
 }
-[color~="hover:Lime:600"]:hover,
-[color~="hover:Lime:600"]:focus {
+[color~="action:Lime:600"]:hover,
+[color~="action:Lime:600"]:focus {
   background-color: #c0ca33;
   color: #000;
 }
-[color~="hover:Lime:700"]:hover,
-[color~="hover:Lime:700"]:focus {
+[color~="action:Lime:700"]:hover,
+[color~="action:Lime:700"]:focus {
   background-color: #afb42b;
   color: #000;
 }
-[color~="hover:Lime:800"]:hover,
-[color~="hover:Lime:800"]:focus {
+[color~="action:Lime:800"]:hover,
+[color~="action:Lime:800"]:focus {
   background-color: #9e9d24;
   color: #000;
 }
-[color~="hover:Lime:900"]:hover,
-[color~="hover:Lime:900"]:focus {
+[color~="action:Lime:900"]:hover,
+[color~="action:Lime:900"]:focus {
   background-color: #827717;
   color: #fff;
 }
-[color~="hover:Lime:A100"]:hover,
-[color~="hover:Lime:A100"]:focus {
+[color~="action:Lime:A100"]:hover,
+[color~="action:Lime:A100"]:focus {
   background-color: #f4ff81;
   color: #000;
 }
-[color~="hover:Lime:A200"]:hover,
-[color~="hover:Lime:A200"]:focus {
+[color~="action:Lime:A200"]:hover,
+[color~="action:Lime:A200"]:focus {
   background-color: #eeff41;
   color: #000;
 }
-[color~="hover:Lime:A400"]:hover,
-[color~="hover:Lime:A400"]:focus {
+[color~="action:Lime:A400"]:hover,
+[color~="action:Lime:A400"]:focus {
   background-color: #c6ff00;
   color: #000;
 }
-[color~="hover:Lime:A700"]:hover,
-[color~="hover:Lime:A700"]:focus {
+[color~="action:Lime:A700"]:hover,
+[color~="action:Lime:A700"]:focus {
   background-color: #aeea00;
   color: #000;
 }
-[color~="hover:Yellow"]:hover,
-[color~="hover:Yellow"]:focus {
+[color~="action:Yellow"]:hover,
+[color~="action:Yellow"]:focus {
   background-color: #ffeb3b;
   color: #000;
 }
-[color~="hover:Yellow:50"]:hover,
-[color~="hover:Yellow:50"]:focus {
+[color~="action:Yellow:50"]:hover,
+[color~="action:Yellow:50"]:focus {
   background-color: #fffde7;
   color: #000;
 }
-[color~="hover:Yellow:100"]:hover,
-[color~="hover:Yellow:100"]:focus {
+[color~="action:Yellow:100"]:hover,
+[color~="action:Yellow:100"]:focus {
   background-color: #fff9c4;
   color: #000;
 }
-[color~="hover:Yellow:200"]:hover,
-[color~="hover:Yellow:200"]:focus {
+[color~="action:Yellow:200"]:hover,
+[color~="action:Yellow:200"]:focus {
   background-color: #fff59d;
   color: #000;
 }
-[color~="hover:Yellow:300"]:hover,
-[color~="hover:Yellow:300"]:focus {
+[color~="action:Yellow:300"]:hover,
+[color~="action:Yellow:300"]:focus {
   background-color: #fff176;
   color: #000;
 }
-[color~="hover:Yellow:400"]:hover,
-[color~="hover:Yellow:400"]:focus {
+[color~="action:Yellow:400"]:hover,
+[color~="action:Yellow:400"]:focus {
   background-color: #ffee58;
   color: #000;
 }
-[color~="hover:Yellow:500"]:hover,
-[color~="hover:Yellow:500"]:focus {
+[color~="action:Yellow:500"]:hover,
+[color~="action:Yellow:500"]:focus {
   background-color: #ffeb3b;
   color: #000;
 }
-[color~="hover:Yellow:600"]:hover,
-[color~="hover:Yellow:600"]:focus {
+[color~="action:Yellow:600"]:hover,
+[color~="action:Yellow:600"]:focus {
   background-color: #fdd835;
   color: #000;
 }
-[color~="hover:Yellow:700"]:hover,
-[color~="hover:Yellow:700"]:focus {
+[color~="action:Yellow:700"]:hover,
+[color~="action:Yellow:700"]:focus {
   background-color: #fbc02d;
   color: #000;
 }
-[color~="hover:Yellow:800"]:hover,
-[color~="hover:Yellow:800"]:focus {
+[color~="action:Yellow:800"]:hover,
+[color~="action:Yellow:800"]:focus {
   background-color: #f9a825;
   color: #000;
 }
-[color~="hover:Yellow:900"]:hover,
-[color~="hover:Yellow:900"]:focus {
+[color~="action:Yellow:900"]:hover,
+[color~="action:Yellow:900"]:focus {
   background-color: #f57f17;
   color: #000;
 }
-[color~="hover:Yellow:A100"]:hover,
-[color~="hover:Yellow:A100"]:focus {
+[color~="action:Yellow:A100"]:hover,
+[color~="action:Yellow:A100"]:focus {
   background-color: #ffff8d;
   color: #000;
 }
-[color~="hover:Yellow:A200"]:hover,
-[color~="hover:Yellow:A200"]:focus {
+[color~="action:Yellow:A200"]:hover,
+[color~="action:Yellow:A200"]:focus {
   background-color: #ff0;
   color: #000;
 }
-[color~="hover:Yellow:A400"]:hover,
-[color~="hover:Yellow:A400"]:focus {
+[color~="action:Yellow:A400"]:hover,
+[color~="action:Yellow:A400"]:focus {
   background-color: #ffea00;
   color: #000;
 }
-[color~="hover:Yellow:A700"]:hover,
-[color~="hover:Yellow:A700"]:focus {
+[color~="action:Yellow:A700"]:hover,
+[color~="action:Yellow:A700"]:focus {
   background-color: #ffd600;
   color: #000;
 }
-[color~="hover:Amber"]:hover,
-[color~="hover:Amber"]:focus {
+[color~="action:Amber"]:hover,
+[color~="action:Amber"]:focus {
   background-color: #ffc107;
   color: #000;
 }
-[color~="hover:Amber:50"]:hover,
-[color~="hover:Amber:50"]:focus {
+[color~="action:Amber:50"]:hover,
+[color~="action:Amber:50"]:focus {
   background-color: #fff8e1;
   color: #000;
 }
-[color~="hover:Amber:100"]:hover,
-[color~="hover:Amber:100"]:focus {
+[color~="action:Amber:100"]:hover,
+[color~="action:Amber:100"]:focus {
   background-color: #ffecb3;
   color: #000;
 }
-[color~="hover:Amber:200"]:hover,
-[color~="hover:Amber:200"]:focus {
+[color~="action:Amber:200"]:hover,
+[color~="action:Amber:200"]:focus {
   background-color: #ffe082;
   color: #000;
 }
-[color~="hover:Amber:300"]:hover,
-[color~="hover:Amber:300"]:focus {
+[color~="action:Amber:300"]:hover,
+[color~="action:Amber:300"]:focus {
   background-color: #ffd54f;
   color: #000;
 }
-[color~="hover:Amber:400"]:hover,
-[color~="hover:Amber:400"]:focus {
+[color~="action:Amber:400"]:hover,
+[color~="action:Amber:400"]:focus {
   background-color: #ffca28;
   color: #000;
 }
-[color~="hover:Amber:500"]:hover,
-[color~="hover:Amber:500"]:focus {
+[color~="action:Amber:500"]:hover,
+[color~="action:Amber:500"]:focus {
   background-color: #ffc107;
   color: #000;
 }
-[color~="hover:Amber:600"]:hover,
-[color~="hover:Amber:600"]:focus {
+[color~="action:Amber:600"]:hover,
+[color~="action:Amber:600"]:focus {
   background-color: #ffb300;
   color: #000;
 }
-[color~="hover:Amber:700"]:hover,
-[color~="hover:Amber:700"]:focus {
+[color~="action:Amber:700"]:hover,
+[color~="action:Amber:700"]:focus {
   background-color: #ffa000;
   color: #000;
 }
-[color~="hover:Amber:800"]:hover,
-[color~="hover:Amber:800"]:focus {
+[color~="action:Amber:800"]:hover,
+[color~="action:Amber:800"]:focus {
   background-color: #ff8f00;
   color: #000;
 }
-[color~="hover:Amber:900"]:hover,
-[color~="hover:Amber:900"]:focus {
+[color~="action:Amber:900"]:hover,
+[color~="action:Amber:900"]:focus {
   background-color: #ff6f00;
   color: #000;
 }
-[color~="hover:Amber:A100"]:hover,
-[color~="hover:Amber:A100"]:focus {
+[color~="action:Amber:A100"]:hover,
+[color~="action:Amber:A100"]:focus {
   background-color: #ffe57f;
   color: #000;
 }
-[color~="hover:Amber:A200"]:hover,
-[color~="hover:Amber:A200"]:focus {
+[color~="action:Amber:A200"]:hover,
+[color~="action:Amber:A200"]:focus {
   background-color: #ffd740;
   color: #000;
 }
-[color~="hover:Amber:A400"]:hover,
-[color~="hover:Amber:A400"]:focus {
+[color~="action:Amber:A400"]:hover,
+[color~="action:Amber:A400"]:focus {
   background-color: #ffc400;
   color: #000;
 }
-[color~="hover:Amber:A700"]:hover,
-[color~="hover:Amber:A700"]:focus {
+[color~="action:Amber:A700"]:hover,
+[color~="action:Amber:A700"]:focus {
   background-color: #ffab00;
   color: #000;
 }
-[color~="hover:Orange"]:hover,
-[color~="hover:Orange"]:focus {
+[color~="action:Orange"]:hover,
+[color~="action:Orange"]:focus {
   background-color: #ff9800;
   color: #000;
 }
-[color~="hover:Orange:50"]:hover,
-[color~="hover:Orange:50"]:focus {
+[color~="action:Orange:50"]:hover,
+[color~="action:Orange:50"]:focus {
   background-color: #fff3e0;
   color: #000;
 }
-[color~="hover:Orange:100"]:hover,
-[color~="hover:Orange:100"]:focus {
+[color~="action:Orange:100"]:hover,
+[color~="action:Orange:100"]:focus {
   background-color: #ffe0b2;
   color: #000;
 }
-[color~="hover:Orange:200"]:hover,
-[color~="hover:Orange:200"]:focus {
+[color~="action:Orange:200"]:hover,
+[color~="action:Orange:200"]:focus {
   background-color: #ffcc80;
   color: #000;
 }
-[color~="hover:Orange:300"]:hover,
-[color~="hover:Orange:300"]:focus {
+[color~="action:Orange:300"]:hover,
+[color~="action:Orange:300"]:focus {
   background-color: #ffb74d;
   color: #000;
 }
-[color~="hover:Orange:400"]:hover,
-[color~="hover:Orange:400"]:focus {
+[color~="action:Orange:400"]:hover,
+[color~="action:Orange:400"]:focus {
   background-color: #ffa726;
   color: #000;
 }
-[color~="hover:Orange:500"]:hover,
-[color~="hover:Orange:500"]:focus {
+[color~="action:Orange:500"]:hover,
+[color~="action:Orange:500"]:focus {
   background-color: #ff9800;
   color: #000;
 }
-[color~="hover:Orange:600"]:hover,
-[color~="hover:Orange:600"]:focus {
+[color~="action:Orange:600"]:hover,
+[color~="action:Orange:600"]:focus {
   background-color: #fb8c00;
   color: #000;
 }
-[color~="hover:Orange:700"]:hover,
-[color~="hover:Orange:700"]:focus {
+[color~="action:Orange:700"]:hover,
+[color~="action:Orange:700"]:focus {
   background-color: #f57c00;
   color: #000;
 }
-[color~="hover:Orange:800"]:hover,
-[color~="hover:Orange:800"]:focus {
+[color~="action:Orange:800"]:hover,
+[color~="action:Orange:800"]:focus {
   background-color: #ef6c00;
   color: #fff;
 }
-[color~="hover:Orange:900"]:hover,
-[color~="hover:Orange:900"]:focus {
+[color~="action:Orange:900"]:hover,
+[color~="action:Orange:900"]:focus {
   background-color: #e65100;
   color: #fff;
 }
-[color~="hover:Orange:A100"]:hover,
-[color~="hover:Orange:A100"]:focus {
+[color~="action:Orange:A100"]:hover,
+[color~="action:Orange:A100"]:focus {
   background-color: #ffd180;
   color: #000;
 }
-[color~="hover:Orange:A200"]:hover,
-[color~="hover:Orange:A200"]:focus {
+[color~="action:Orange:A200"]:hover,
+[color~="action:Orange:A200"]:focus {
   background-color: #ffab40;
   color: #000;
 }
-[color~="hover:Orange:A400"]:hover,
-[color~="hover:Orange:A400"]:focus {
+[color~="action:Orange:A400"]:hover,
+[color~="action:Orange:A400"]:focus {
   background-color: #ff9100;
   color: #000;
 }
-[color~="hover:Orange:A700"]:hover,
-[color~="hover:Orange:A700"]:focus {
+[color~="action:Orange:A700"]:hover,
+[color~="action:Orange:A700"]:focus {
   background-color: #ff6d00;
   color: #000;
 }
-[color~="hover:DeepOrange"]:hover,
-[color~="hover:DeepOrange"]:focus {
+[color~="action:DeepOrange"]:hover,
+[color~="action:DeepOrange"]:focus {
   background-color: #ff5722;
   color: #fff;
 }
-[color~="hover:DeepOrange:50"]:hover,
-[color~="hover:DeepOrange:50"]:focus {
+[color~="action:DeepOrange:50"]:hover,
+[color~="action:DeepOrange:50"]:focus {
   background-color: #fbe9e7;
   color: #000;
 }
-[color~="hover:DeepOrange:100"]:hover,
-[color~="hover:DeepOrange:100"]:focus {
+[color~="action:DeepOrange:100"]:hover,
+[color~="action:DeepOrange:100"]:focus {
   background-color: #ffccbc;
   color: #000;
 }
-[color~="hover:DeepOrange:200"]:hover,
-[color~="hover:DeepOrange:200"]:focus {
+[color~="action:DeepOrange:200"]:hover,
+[color~="action:DeepOrange:200"]:focus {
   background-color: #ffab91;
   color: #000;
 }
-[color~="hover:DeepOrange:300"]:hover,
-[color~="hover:DeepOrange:300"]:focus {
+[color~="action:DeepOrange:300"]:hover,
+[color~="action:DeepOrange:300"]:focus {
   background-color: #ff8a65;
   color: #000;
 }
-[color~="hover:DeepOrange:400"]:hover,
-[color~="hover:DeepOrange:400"]:focus {
+[color~="action:DeepOrange:400"]:hover,
+[color~="action:DeepOrange:400"]:focus {
   background-color: #ff7043;
   color: #000;
 }
-[color~="hover:DeepOrange:500"]:hover,
-[color~="hover:DeepOrange:500"]:focus {
+[color~="action:DeepOrange:500"]:hover,
+[color~="action:DeepOrange:500"]:focus {
   background-color: #ff5722;
   color: #fff;
 }
-[color~="hover:DeepOrange:600"]:hover,
-[color~="hover:DeepOrange:600"]:focus {
+[color~="action:DeepOrange:600"]:hover,
+[color~="action:DeepOrange:600"]:focus {
   background-color: #f4511e;
   color: #fff;
 }
-[color~="hover:DeepOrange:700"]:hover,
-[color~="hover:DeepOrange:700"]:focus {
+[color~="action:DeepOrange:700"]:hover,
+[color~="action:DeepOrange:700"]:focus {
   background-color: #e64a19;
   color: #fff;
 }
-[color~="hover:DeepOrange:800"]:hover,
-[color~="hover:DeepOrange:800"]:focus {
+[color~="action:DeepOrange:800"]:hover,
+[color~="action:DeepOrange:800"]:focus {
   background-color: #d84315;
   color: #fff;
 }
-[color~="hover:DeepOrange:900"]:hover,
-[color~="hover:DeepOrange:900"]:focus {
+[color~="action:DeepOrange:900"]:hover,
+[color~="action:DeepOrange:900"]:focus {
   background-color: #bf360c;
   color: #fff;
 }
-[color~="hover:DeepOrange:A100"]:hover,
-[color~="hover:DeepOrange:A100"]:focus {
+[color~="action:DeepOrange:A100"]:hover,
+[color~="action:DeepOrange:A100"]:focus {
   background-color: #ff9e80;
   color: #000;
 }
-[color~="hover:DeepOrange:A200"]:hover,
-[color~="hover:DeepOrange:A200"]:focus {
+[color~="action:DeepOrange:A200"]:hover,
+[color~="action:DeepOrange:A200"]:focus {
   background-color: #ff6e40;
   color: #000;
 }
-[color~="hover:DeepOrange:A400"]:hover,
-[color~="hover:DeepOrange:A400"]:focus {
+[color~="action:DeepOrange:A400"]:hover,
+[color~="action:DeepOrange:A400"]:focus {
   background-color: #ff3d00;
   color: #fff;
 }
-[color~="hover:DeepOrange:A700"]:hover,
-[color~="hover:DeepOrange:A700"]:focus {
+[color~="action:DeepOrange:A700"]:hover,
+[color~="action:DeepOrange:A700"]:focus {
   background-color: #dd2c00;
   color: #fff;
 }
-[color~="hover:Brown"]:hover,
-[color~="hover:Brown"]:focus {
+[color~="action:Brown"]:hover,
+[color~="action:Brown"]:focus {
   background-color: #795548;
   color: #fff;
 }
-[color~="hover:Brown:50"]:hover,
-[color~="hover:Brown:50"]:focus {
+[color~="action:Brown:50"]:hover,
+[color~="action:Brown:50"]:focus {
   background-color: #efebe9;
   color: #000;
 }
-[color~="hover:Brown:100"]:hover,
-[color~="hover:Brown:100"]:focus {
+[color~="action:Brown:100"]:hover,
+[color~="action:Brown:100"]:focus {
   background-color: #d7ccc8;
   color: #000;
 }
-[color~="hover:Brown:200"]:hover,
-[color~="hover:Brown:200"]:focus {
+[color~="action:Brown:200"]:hover,
+[color~="action:Brown:200"]:focus {
   background-color: #bcaaa4;
   color: #000;
 }
-[color~="hover:Brown:300"]:hover,
-[color~="hover:Brown:300"]:focus {
+[color~="action:Brown:300"]:hover,
+[color~="action:Brown:300"]:focus {
   background-color: #a1887f;
   color: #fff;
 }
-[color~="hover:Brown:400"]:hover,
-[color~="hover:Brown:400"]:focus {
+[color~="action:Brown:400"]:hover,
+[color~="action:Brown:400"]:focus {
   background-color: #8d6e63;
   color: #fff;
 }
-[color~="hover:Brown:500"]:hover,
-[color~="hover:Brown:500"]:focus {
+[color~="action:Brown:500"]:hover,
+[color~="action:Brown:500"]:focus {
   background-color: #795548;
   color: #fff;
 }
-[color~="hover:Brown:600"]:hover,
-[color~="hover:Brown:600"]:focus {
+[color~="action:Brown:600"]:hover,
+[color~="action:Brown:600"]:focus {
   background-color: #6d4c41;
   color: #fff;
 }
-[color~="hover:Brown:700"]:hover,
-[color~="hover:Brown:700"]:focus {
+[color~="action:Brown:700"]:hover,
+[color~="action:Brown:700"]:focus {
   background-color: #5d4037;
   color: #fff;
 }
-[color~="hover:Brown:800"]:hover,
-[color~="hover:Brown:800"]:focus {
+[color~="action:Brown:800"]:hover,
+[color~="action:Brown:800"]:focus {
   background-color: #4e342e;
   color: #fff;
 }
-[color~="hover:Brown:900"]:hover,
-[color~="hover:Brown:900"]:focus {
+[color~="action:Brown:900"]:hover,
+[color~="action:Brown:900"]:focus {
   background-color: #3e2723;
   color: #fff;
 }
-[color~="hover:Grey"]:hover,
-[color~="hover:Grey"]:focus {
+[color~="action:Grey"]:hover,
+[color~="action:Grey"]:focus {
   background-color: #9e9e9e;
   color: #000;
 }
-[color~="hover:Grey:50"]:hover,
-[color~="hover:Grey:50"]:focus {
+[color~="action:Grey:50"]:hover,
+[color~="action:Grey:50"]:focus {
   background-color: #fafafa;
   color: #000;
 }
-[color~="hover:Grey:100"]:hover,
-[color~="hover:Grey:100"]:focus {
+[color~="action:Grey:100"]:hover,
+[color~="action:Grey:100"]:focus {
   background-color: #f5f5f5;
   color: #000;
 }
-[color~="hover:Grey:200"]:hover,
-[color~="hover:Grey:200"]:focus {
+[color~="action:Grey:200"]:hover,
+[color~="action:Grey:200"]:focus {
   background-color: #eee;
   color: #000;
 }
-[color~="hover:Grey:300"]:hover,
-[color~="hover:Grey:300"]:focus {
+[color~="action:Grey:300"]:hover,
+[color~="action:Grey:300"]:focus {
   background-color: #e0e0e0;
   color: #000;
 }
-[color~="hover:Grey:400"]:hover,
-[color~="hover:Grey:400"]:focus {
+[color~="action:Grey:400"]:hover,
+[color~="action:Grey:400"]:focus {
   background-color: #bdbdbd;
   color: #000;
 }
-[color~="hover:Grey:500"]:hover,
-[color~="hover:Grey:500"]:focus {
+[color~="action:Grey:500"]:hover,
+[color~="action:Grey:500"]:focus {
   background-color: #9e9e9e;
   color: #000;
 }
-[color~="hover:Grey:600"]:hover,
-[color~="hover:Grey:600"]:focus {
+[color~="action:Grey:600"]:hover,
+[color~="action:Grey:600"]:focus {
   background-color: #757575;
   color: #fff;
 }
-[color~="hover:Grey:700"]:hover,
-[color~="hover:Grey:700"]:focus {
+[color~="action:Grey:700"]:hover,
+[color~="action:Grey:700"]:focus {
   background-color: #616161;
   color: #fff;
 }
-[color~="hover:Grey:800"]:hover,
-[color~="hover:Grey:800"]:focus {
+[color~="action:Grey:800"]:hover,
+[color~="action:Grey:800"]:focus {
   background-color: #424242;
   color: #fff;
 }
-[color~="hover:Grey:900"]:hover,
-[color~="hover:Grey:900"]:focus {
+[color~="action:Grey:900"]:hover,
+[color~="action:Grey:900"]:focus {
   background-color: #212121;
   color: #fff;
 }
-[color~="hover:BlueGrey"]:hover,
-[color~="hover:BlueGrey"]:focus {
+[color~="action:BlueGrey"]:hover,
+[color~="action:BlueGrey"]:focus {
   background-color: #607d8b;
   color: #fff;
 }
-[color~="hover:BlueGrey:50"]:hover,
-[color~="hover:BlueGrey:50"]:focus {
+[color~="action:BlueGrey:50"]:hover,
+[color~="action:BlueGrey:50"]:focus {
   background-color: #eceff1;
   color: #000;
 }
-[color~="hover:BlueGrey:100"]:hover,
-[color~="hover:BlueGrey:100"]:focus {
+[color~="action:BlueGrey:100"]:hover,
+[color~="action:BlueGrey:100"]:focus {
   background-color: #cfd8dc;
   color: #000;
 }
-[color~="hover:BlueGrey:200"]:hover,
-[color~="hover:BlueGrey:200"]:focus {
+[color~="action:BlueGrey:200"]:hover,
+[color~="action:BlueGrey:200"]:focus {
   background-color: #b0bec5;
   color: #000;
 }
-[color~="hover:BlueGrey:300"]:hover,
-[color~="hover:BlueGrey:300"]:focus {
+[color~="action:BlueGrey:300"]:hover,
+[color~="action:BlueGrey:300"]:focus {
   background-color: #90a4ae;
   color: #000;
 }
-[color~="hover:BlueGrey:400"]:hover,
-[color~="hover:BlueGrey:400"]:focus {
+[color~="action:BlueGrey:400"]:hover,
+[color~="action:BlueGrey:400"]:focus {
   background-color: #78909c;
   color: #fff;
 }
-[color~="hover:BlueGrey:500"]:hover,
-[color~="hover:BlueGrey:500"]:focus {
+[color~="action:BlueGrey:500"]:hover,
+[color~="action:BlueGrey:500"]:focus {
   background-color: #607d8b;
   color: #fff;
 }
-[color~="hover:BlueGrey:600"]:hover,
-[color~="hover:BlueGrey:600"]:focus {
+[color~="action:BlueGrey:600"]:hover,
+[color~="action:BlueGrey:600"]:focus {
   background-color: #546e7a;
   color: #fff;
 }
-[color~="hover:BlueGrey:700"]:hover,
-[color~="hover:BlueGrey:700"]:focus {
+[color~="action:BlueGrey:700"]:hover,
+[color~="action:BlueGrey:700"]:focus {
   background-color: #455a64;
   color: #fff;
 }
-[color~="hover:BlueGrey:800"]:hover,
-[color~="hover:BlueGrey:800"]:focus {
+[color~="action:BlueGrey:800"]:hover,
+[color~="action:BlueGrey:800"]:focus {
   background-color: #37474f;
   color: #fff;
 }
-[color~="hover:BlueGrey:900"]:hover,
-[color~="hover:BlueGrey:900"]:focus {
+[color~="action:BlueGrey:900"]:hover,
+[color~="action:BlueGrey:900"]:focus {
   background-color: #263238;
   color: #fff;
 }
-[color~="hover:Black"]:hover,
-[color~="hover:Black"]:focus {
+[color~="action:Black"]:hover,
+[color~="action:Black"]:focus {
   background-color: #000;
   color: #fff;
 }
-[color~="hover:White"]:hover,
-[color~="hover:White"]:focus {
+[color~="action:White"]:hover,
+[color~="action:White"]:focus {
   background-color: #fff;
   color: #000;
 }
