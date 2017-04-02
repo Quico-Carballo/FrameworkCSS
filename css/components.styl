@@ -31,7 +31,6 @@ body
 		flex 1 1 auto
 
 a,button
-	//border-radius .2em
 	font 1em/2em Roboto
 	display flex
 	align-items center
@@ -76,6 +75,11 @@ a,button
 			justify-content space-around
 			margin .3em 0
 	img
+		transition all 1s ease
+		&:hover
+			filter blur(5px)
+			&+h3
+				display none
 		width 100%
 		object-fit cover
 
@@ -93,10 +97,10 @@ a,button
 		padding 1em
 	[buttons]
 		display flex
-		//border-top 1px solid #eceff1
 		button::-moz-focus-inner
 			border 0
 		a,button
+			//background-color inherit
 			color inherit
 			padding 0
 			justify-content center
@@ -104,17 +108,20 @@ a,button
 			font 1em/3em Roboto
 			outline none
 			border none
+			transition all 1s
+			background-color trasparent
 			&:hover,&:focus
 				outline none
 
+	[buttons~="3D"]
+		a,button
+			background-image linear-gradient(rgba(white,.1),rgba(black,.1))
+			transition all 1s ease
+			&:hover,&:focus
+				background-image linear-gradient(rgba(black,.1),rgba(white,.1))
 	[buttons~="border"]
 		a,button
 			box-shadow 0 -1px 0 0 rgba(black,.1),
 					inset 0 1px 0 0 rgba(white,.1),
 					inset 0 -1px 0 0 rgba(black,.1),
 					0 1px 0 0 rgba(white,.1)
-	[buttons~="3D"]
-		a,button
-			background-image linear-gradient(rgba(white,.1),rgba(black,.1))
-			&:hover
-				background-image linear-gradient(rgba(black,.1),rgba(white,.1))
