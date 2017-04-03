@@ -12,15 +12,9 @@ html(lang="es-ES")
 	body(StickyFooter color="bg:Grey:100")
 		header(color="bg:BlueGrey") HEADER
 		main
-			div(style="box-shadow:0 0 0 1px lime; width:1920px")
-			div(style="box-shadow:0 0 0 1px red; width:1280px")
-			div(style="box-shadow:0 0 0 1px lime; width:800px")
-			div(style="box-shadow:0 0 0 1px red; width:640px")
-			div(style="box-shadow:0 0 0 1px lime; width:360px")
-			div
 			div(grid="1366:justify:between 1920:justify:around 360:1/1:21.9 640:1/2:21.9 800:1/2:21.9 1280:1/3:21.9 1366:1/4:16.9 1920:1/4:16.9")
 				div(cell="640:1/1:21.9 800:1/1:21.9")
-					figure(card="radius" color="bg:Green:900")
+					figure(card="radius" color="bg:Teal:900")
 						header
 							img(src="img/face.png")
 							div
@@ -38,11 +32,11 @@ html(lang="es-ES")
 							a(href="#" before="folder" color="action:BlueGrey:900") Pro
 						figcaption() ¡Betas! La octava de macOS Sierra 10.12.4 y la séptima de watchOS 3.2 ya disponibles.
 				div(cell)
-					figure(card="radius" color="txt:Grey:900")
+					figure(card)
 						img(src="img/3.jpg")
 						h3 Séptima beta de iOS
-						footer(buttons="border 3D")
-							a(href="#" before="folder" color="action:Grey:200") IOS
-							a(href="#" before="folder" color="action:Grey:200") MacOS
 						figcaption Apple lanza la séptima beta de iOS 10.3 y macOS 10.12.4 para desarrolladores.
+						footer(buttons)
+							a(href="#") IOS
+							a(href="#") MacOS
 		footer(color="bg:BlueGrey") FOOTER
