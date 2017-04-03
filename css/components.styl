@@ -30,7 +30,7 @@ body
 		justify-content center
 		flex 1 1 auto
 
-a,button
+a,button,[input]
 	font 1em/2em Roboto
 	display flex
 	align-items center
@@ -48,6 +48,23 @@ a,button
 		font-family 'Material Icons'
 		font-size 1.3em
 		text-transform lowercase
+
+[input]
+	display flex
+	align-items center
+	line-height 2em
+	border 1px solid grey
+	border-radius 25em	
+	input
+		border inherit
+		border-width 0 1px 0 1px
+		//background-color transparent
+		line-height inherit
+		padding 0 .5em
+		&:before
+			border-right 1px solid grey
+		&:after
+			border-left 1px solid grey
 
 [card~="radius"]
 	border-radius .3em
@@ -100,7 +117,6 @@ a,button
 		button::-moz-focus-inner
 			border 0
 		a,button
-			color inherit
 			padding 0
 			justify-content center
 			flex 1 1 auto

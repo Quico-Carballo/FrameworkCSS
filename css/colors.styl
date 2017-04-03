@@ -1,28 +1,25 @@
 @import palette
 
-for bc in 'txt''bg''action'
+for bc in 'txt:''bg:''action:txt:''action:bg:'
 	color(colors,accent=null)
-		sep = accent is null?null:':'
-		if bc is 'txt'
-			[color~=\"{bc}:{colors}{sep}{accent}\"]
-				color palette(colors,accent is null?'500':accent)[0]
-		if bc is 'bg'
-			[color~=\"{bc}:{colors}{sep}{accent}\"]
-				background-color palette(colors,accent is null?'500':accent)[0]
-				color palette(colors,accent is null?'500':accent)[1]
-		if bc is 'action'
-			[color~=\"{bc}:{colors}{sep}{accent}\"]
+		sep = accent?':':null
+		[color~=\"{bc}{colors}{sep}{accent}\"]
+			if bc is 'txt:'
+				color palette(colors,accent?accent:'500')[0]
+			if bc is 'action:txt:'
 				&:hover,&:focus
-					background-color palette(colors,accent is null?'500':accent)[0]
-					color palette(colors,accent is null?'500':accent)[1]
+					color palette(colors,accent?accent:'500')[0]
+			if bc is 'bg:'
+				background-color palette(colors,accent?accent:'500')[0]
+				color palette(colors,accent?accent:'500')[1]
+			if bc is 'action:bg:'
+				&:hover,&:focus
+					background-color palette(colors,accent?accent:'500')[0]
+					color palette(colors,accent?accent:'500')[1]
 
-	for colors in Red Pink Purple DeepPurple Indigo Blue LightBlue Cyan Teal Green LightGreen Lime Yellow Amber Orange DeepOrange
+	for colors in Red Pink Purple DeepPurple Indigo Blue LightBlue Cyan Teal Green LightGreen Lime Yellow Amber Orange DeepOrange Brown Grey BlueGrey
 		for accent in null'50''100''200''300''400''500''600''700''800''900''A100''A200''A400''A700'
-			color(colors,accent)
-
-	for colors in Brown Grey BlueGrey
-		for accent in null'50''100''200''300''400''500''600''700''800''900'
-			color(colors,accent)
-
-	color(Black,null)
-	color(White,null)
+			if palette(colors,accent?accent:'500') {color(colors,accent)}
+			
+	color(Black)
+	color(White)

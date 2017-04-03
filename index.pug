@@ -12,31 +12,7 @@ html(lang="es-ES")
 	body(StickyFooter color="bg:Grey:100")
 		header(color="bg:BlueGrey") HEADER
 		main
-			div(grid="1366:justify:between 1920:justify:around 360:1/1:21.9 640:1/2:21.9 800:1/2:21.9 1280:1/3:21.9 1366:1/4:16.9 1920:1/4:16.9")
-				div(cell="640:1/1:21.9 800:1/1:21.9")
-					figure(card="radius" color="bg:Teal:900")
-						header
-							img(src="img/face.png")
-							div
-								strong Julio Verne
-								small Aventurero
-						img(src="img/1.jpg")
-						h3 Diez años de teletrabajo
-						figcaption Tras diez años de teletrabajo, esto puedo decir sobre los mitos y realidades de trabajar desde casa.
-				div(cell)
-					figure(card="radius" color="bg:BlueGrey:700")
-						img(src="img/2.jpg")
-						h3 Octava beta de macOS Sierra
-						footer(buttons="border 3D")
-							a(href="#" before="folder" color="action:BlueGrey:900") MacBook
-							a(href="#" before="folder" color="action:BlueGrey:900") Pro
-						figcaption() ¡Betas! La octava de macOS Sierra 10.12.4 y la séptima de watchOS 3.2 ya disponibles.
-				div(cell)
-					figure(card)
-						img(src="img/3.jpg")
-						h3 Séptima beta de iOS
-						figcaption Apple lanza la séptima beta de iOS 10.3 y macOS 10.12.4 para desarrolladores.
-						footer(buttons)
-							a(href="#") IOS
-							a(href="#") MacOS
+			div(grid="justify:center center")
+				div(input before="account_circle" after="account_circle")
+					input(type="text" placeholder="Escribe algo...")
 		footer(color="bg:BlueGrey") FOOTER
