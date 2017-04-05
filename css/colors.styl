@@ -1,25 +1,41 @@
+items = {
+   Red: {
+    color: 'red''orange'
+   }
+   Green: {
+    color: 'green''lime'
+   }
+   Blue: {  
+    color: 'blue''cyan'
+   }
+}
+
+for valor, i in keys(items)
+	{keys(items)[i]}
+		{keys(values(items)[2])[0]} values(values(items)[2])[0]
+		{keys(values(items)[2])[0]} values(values(items)[2])[1]
+
 @import palette
+for colors in keys($palette)
+	colores keys($palette)
+	grados keys(values($palette)[0][0])
+	colores values(values($palette)[0])
+	bg keys(values($palette)[0])
 
-for bc in 'txt:''bg:''action:txt:''action:bg:'
-	color(colors,accent=null)
-		sep = accent?':':null
-		[color~=\"{bc}{colors}{sep}{accent}\"]
-			if bc is 'txt:'
-				color palette(colors,accent?accent:'500')[0]
-			if bc is 'action:txt:'
-				&:hover,&:focus
-					color palette(colors,accent?accent:'500')[0]
-			if bc is 'bg:'
-				background-color palette(colors,accent?accent:'500')[0]
-				color palette(colors,accent?accent:'500')[1]
-			if bc is 'action:bg:'
-				&:hover,&:focus
-					background-color palette(colors,accent?accent:'500')[0]
-					color palette(colors,accent?accent:'500')[1]
-
-	for colors in Red Pink Purple DeepPurple Indigo Blue LightBlue Cyan Teal Green LightGreen Lime Yellow Amber Orange DeepOrange Brown Grey BlueGrey
-		for accent in null'50''100''200''300''400''500''600''700''800''900''A100''A200''A400''A700'
-			if palette(colors,accent?accent:'500') {color(colors,accent)}
-			
-	color(Black)
-	color(White)
+	for accent in null'50''100''200''300''400''500''600''700''800''900''A100''A200''A400''A700'
+		if palette(colors,accent?accent:'500') and ((colors != Black and colors != White) or !accent)
+			for bc in 'bg:''txt:''action:bg:''action:txt:'
+				sep = accent?':':null
+				[color~=\"{bc}{colors}{sep}{accent}\"]
+					if bc is 'bg:'
+							background-color palette(colors,accent?accent:'500')[0]
+							color palette(colors,accent?accent:'500')[1]
+					if bc is 'txt:'
+							color palette(colors,accent?accent:'500')[0]
+					if bc is 'action:bg:'
+						&:hover,&:focus
+							background-color palette(colors,accent?accent:'500')[0]
+							color palette(colors,accent?accent:'500')[1]
+					if bc is 'action:txt:'
+						&:hover,&:focus
+							color palette(colors,accent?accent:'500')[0]
