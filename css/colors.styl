@@ -3,7 +3,7 @@ for color, i in keys($palette)
 	for accent in keys(values($palette)[i])
 		for bc in 'bg:''txt:''action:bg:''action:txt:'
 			[color~=\"{bc}{color}{accent}\"]
-				action=bc=='action:bg:'or'action:txt:'==bc?'&:hover,&:focus':'&,&'
+				action=(bc=='action:bg:'or'action:txt:'==bc)?'&:hover,&:focus':'&,&'
 				{action}
 					if(bc=='bg:'or'action:bg:'==bc){background-color palette(color,accent)[0]}
 					color palette(color,accent)[bc=='txt:'or'action:txt:'==bc?0:1]
