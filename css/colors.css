@@ -1,35 +1,3 @@
-Red {
-  color: 'blue';
-  color: 'cyan';
-}
-Green {
-  color: 'blue';
-  color: 'cyan';
-}
-Blue {
-  color: 'blue';
-  color: 'cyan';
-}
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Red"] {
-  background-color: #f44336;
-  color: #fff;
-}
-[color~="txt:Red"] {
-  color: #f44336;
-}
-[color~="action:bg:Red"]:hover,
-[color~="action:bg:Red"]:focus {
-  background-color: #f44336;
-  color: #fff;
-}
-[color~="action:txt:Red"]:hover,
-[color~="action:txt:Red"]:focus {
-  color: #f44336;
-}
 [color~="bg:Red:50"] {
   background-color: #ffebee;
   color: #000;
@@ -110,20 +78,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Red:400"]:focus {
   color: #ef5350;
 }
-[color~="bg:Red:500"] {
+[color~="bg:Red"] {
   background-color: #f44336;
   color: #fff;
 }
-[color~="txt:Red:500"] {
+[color~="txt:Red"] {
   color: #f44336;
 }
-[color~="action:bg:Red:500"]:hover,
-[color~="action:bg:Red:500"]:focus {
+[color~="action:bg:Red"]:hover,
+[color~="action:bg:Red"]:focus {
   background-color: #f44336;
   color: #fff;
 }
-[color~="action:txt:Red:500"]:hover,
-[color~="action:txt:Red:500"]:focus {
+[color~="action:txt:Red"]:hover,
+[color~="action:txt:Red"]:focus {
   color: #f44336;
 }
 [color~="bg:Red:600"] {
@@ -254,26 +222,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Red:A700"]:focus {
   color: #d50000;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Pink"] {
-  background-color: #e91e63;
-  color: #fff;
-}
-[color~="txt:Pink"] {
-  color: #e91e63;
-}
-[color~="action:bg:Pink"]:hover,
-[color~="action:bg:Pink"]:focus {
-  background-color: #e91e63;
-  color: #fff;
-}
-[color~="action:txt:Pink"]:hover,
-[color~="action:txt:Pink"]:focus {
-  color: #e91e63;
-}
 [color~="bg:Pink:50"] {
   background-color: #fce4ec;
   color: #000;
@@ -354,20 +302,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Pink:400"]:focus {
   color: #ec407a;
 }
-[color~="bg:Pink:500"] {
+[color~="bg:Pink"] {
   background-color: #e91e63;
   color: #fff;
 }
-[color~="txt:Pink:500"] {
+[color~="txt:Pink"] {
   color: #e91e63;
 }
-[color~="action:bg:Pink:500"]:hover,
-[color~="action:bg:Pink:500"]:focus {
+[color~="action:bg:Pink"]:hover,
+[color~="action:bg:Pink"]:focus {
   background-color: #e91e63;
   color: #fff;
 }
-[color~="action:txt:Pink:500"]:hover,
-[color~="action:txt:Pink:500"]:focus {
+[color~="action:txt:Pink"]:hover,
+[color~="action:txt:Pink"]:focus {
   color: #e91e63;
 }
 [color~="bg:Pink:600"] {
@@ -498,26 +446,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Pink:A700"]:focus {
   color: #c51162;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Purple"] {
-  background-color: #9c27b0;
-  color: #fff;
-}
-[color~="txt:Purple"] {
-  color: #9c27b0;
-}
-[color~="action:bg:Purple"]:hover,
-[color~="action:bg:Purple"]:focus {
-  background-color: #9c27b0;
-  color: #fff;
-}
-[color~="action:txt:Purple"]:hover,
-[color~="action:txt:Purple"]:focus {
-  color: #9c27b0;
-}
 [color~="bg:Purple:50"] {
   background-color: #f3e5f5;
   color: #000;
@@ -598,20 +526,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Purple:400"]:focus {
   color: #ab47bc;
 }
-[color~="bg:Purple:500"] {
+[color~="bg:Purple"] {
   background-color: #9c27b0;
   color: #fff;
 }
-[color~="txt:Purple:500"] {
+[color~="txt:Purple"] {
   color: #9c27b0;
 }
-[color~="action:bg:Purple:500"]:hover,
-[color~="action:bg:Purple:500"]:focus {
+[color~="action:bg:Purple"]:hover,
+[color~="action:bg:Purple"]:focus {
   background-color: #9c27b0;
   color: #fff;
 }
-[color~="action:txt:Purple:500"]:hover,
-[color~="action:txt:Purple:500"]:focus {
+[color~="action:txt:Purple"]:hover,
+[color~="action:txt:Purple"]:focus {
   color: #9c27b0;
 }
 [color~="bg:Purple:600"] {
@@ -742,26 +670,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Purple:A700"]:focus {
   color: #a0f;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:DeepPurple"] {
-  background-color: #673ab7;
-  color: #fff;
-}
-[color~="txt:DeepPurple"] {
-  color: #673ab7;
-}
-[color~="action:bg:DeepPurple"]:hover,
-[color~="action:bg:DeepPurple"]:focus {
-  background-color: #673ab7;
-  color: #fff;
-}
-[color~="action:txt:DeepPurple"]:hover,
-[color~="action:txt:DeepPurple"]:focus {
-  color: #673ab7;
-}
 [color~="bg:DeepPurple:50"] {
   background-color: #ede7f6;
   color: #000;
@@ -842,20 +750,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:DeepPurple:400"]:focus {
   color: #7e57c2;
 }
-[color~="bg:DeepPurple:500"] {
+[color~="bg:DeepPurple"] {
   background-color: #673ab7;
   color: #fff;
 }
-[color~="txt:DeepPurple:500"] {
+[color~="txt:DeepPurple"] {
   color: #673ab7;
 }
-[color~="action:bg:DeepPurple:500"]:hover,
-[color~="action:bg:DeepPurple:500"]:focus {
+[color~="action:bg:DeepPurple"]:hover,
+[color~="action:bg:DeepPurple"]:focus {
   background-color: #673ab7;
   color: #fff;
 }
-[color~="action:txt:DeepPurple:500"]:hover,
-[color~="action:txt:DeepPurple:500"]:focus {
+[color~="action:txt:DeepPurple"]:hover,
+[color~="action:txt:DeepPurple"]:focus {
   color: #673ab7;
 }
 [color~="bg:DeepPurple:600"] {
@@ -986,26 +894,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:DeepPurple:A700"]:focus {
   color: #6200ea;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Indigo"] {
-  background-color: #3f51b5;
-  color: #fff;
-}
-[color~="txt:Indigo"] {
-  color: #3f51b5;
-}
-[color~="action:bg:Indigo"]:hover,
-[color~="action:bg:Indigo"]:focus {
-  background-color: #3f51b5;
-  color: #fff;
-}
-[color~="action:txt:Indigo"]:hover,
-[color~="action:txt:Indigo"]:focus {
-  color: #3f51b5;
-}
 [color~="bg:Indigo:50"] {
   background-color: #e8eaf6;
   color: #000;
@@ -1086,20 +974,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Indigo:400"]:focus {
   color: #5c6bc0;
 }
-[color~="bg:Indigo:500"] {
+[color~="bg:Indigo"] {
   background-color: #3f51b5;
   color: #fff;
 }
-[color~="txt:Indigo:500"] {
+[color~="txt:Indigo"] {
   color: #3f51b5;
 }
-[color~="action:bg:Indigo:500"]:hover,
-[color~="action:bg:Indigo:500"]:focus {
+[color~="action:bg:Indigo"]:hover,
+[color~="action:bg:Indigo"]:focus {
   background-color: #3f51b5;
   color: #fff;
 }
-[color~="action:txt:Indigo:500"]:hover,
-[color~="action:txt:Indigo:500"]:focus {
+[color~="action:txt:Indigo"]:hover,
+[color~="action:txt:Indigo"]:focus {
   color: #3f51b5;
 }
 [color~="bg:Indigo:600"] {
@@ -1230,26 +1118,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Indigo:A700"]:focus {
   color: #304ffe;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Blue"] {
-  background-color: #2196f3;
-  color: #fff;
-}
-[color~="txt:Blue"] {
-  color: #2196f3;
-}
-[color~="action:bg:Blue"]:hover,
-[color~="action:bg:Blue"]:focus {
-  background-color: #2196f3;
-  color: #fff;
-}
-[color~="action:txt:Blue"]:hover,
-[color~="action:txt:Blue"]:focus {
-  color: #2196f3;
-}
 [color~="bg:Blue:50"] {
   background-color: #e3f2fd;
   color: #000;
@@ -1330,20 +1198,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Blue:400"]:focus {
   color: #42a5f5;
 }
-[color~="bg:Blue:500"] {
+[color~="bg:Blue"] {
   background-color: #2196f3;
   color: #fff;
 }
-[color~="txt:Blue:500"] {
+[color~="txt:Blue"] {
   color: #2196f3;
 }
-[color~="action:bg:Blue:500"]:hover,
-[color~="action:bg:Blue:500"]:focus {
+[color~="action:bg:Blue"]:hover,
+[color~="action:bg:Blue"]:focus {
   background-color: #2196f3;
   color: #fff;
 }
-[color~="action:txt:Blue:500"]:hover,
-[color~="action:txt:Blue:500"]:focus {
+[color~="action:txt:Blue"]:hover,
+[color~="action:txt:Blue"]:focus {
   color: #2196f3;
 }
 [color~="bg:Blue:600"] {
@@ -1474,26 +1342,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Blue:A700"]:focus {
   color: #2962ff;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:LightBlue"] {
-  background-color: #03a9f4;
-  color: #000;
-}
-[color~="txt:LightBlue"] {
-  color: #03a9f4;
-}
-[color~="action:bg:LightBlue"]:hover,
-[color~="action:bg:LightBlue"]:focus {
-  background-color: #03a9f4;
-  color: #000;
-}
-[color~="action:txt:LightBlue"]:hover,
-[color~="action:txt:LightBlue"]:focus {
-  color: #03a9f4;
-}
 [color~="bg:LightBlue:50"] {
   background-color: #e1f5fe;
   color: #000;
@@ -1574,20 +1422,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:LightBlue:400"]:focus {
   color: #29b6f6;
 }
-[color~="bg:LightBlue:500"] {
+[color~="bg:LightBlue"] {
   background-color: #03a9f4;
   color: #000;
 }
-[color~="txt:LightBlue:500"] {
+[color~="txt:LightBlue"] {
   color: #03a9f4;
 }
-[color~="action:bg:LightBlue:500"]:hover,
-[color~="action:bg:LightBlue:500"]:focus {
+[color~="action:bg:LightBlue"]:hover,
+[color~="action:bg:LightBlue"]:focus {
   background-color: #03a9f4;
   color: #000;
 }
-[color~="action:txt:LightBlue:500"]:hover,
-[color~="action:txt:LightBlue:500"]:focus {
+[color~="action:txt:LightBlue"]:hover,
+[color~="action:txt:LightBlue"]:focus {
   color: #03a9f4;
 }
 [color~="bg:LightBlue:600"] {
@@ -1718,26 +1566,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:LightBlue:A700"]:focus {
   color: #0091ea;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Cyan"] {
-  background-color: #00bcd4;
-  color: #000;
-}
-[color~="txt:Cyan"] {
-  color: #00bcd4;
-}
-[color~="action:bg:Cyan"]:hover,
-[color~="action:bg:Cyan"]:focus {
-  background-color: #00bcd4;
-  color: #000;
-}
-[color~="action:txt:Cyan"]:hover,
-[color~="action:txt:Cyan"]:focus {
-  color: #00bcd4;
-}
 [color~="bg:Cyan:50"] {
   background-color: #e0f7fa;
   color: #000;
@@ -1818,20 +1646,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Cyan:400"]:focus {
   color: #26c6da;
 }
-[color~="bg:Cyan:500"] {
+[color~="bg:Cyan"] {
   background-color: #00bcd4;
   color: #000;
 }
-[color~="txt:Cyan:500"] {
+[color~="txt:Cyan"] {
   color: #00bcd4;
 }
-[color~="action:bg:Cyan:500"]:hover,
-[color~="action:bg:Cyan:500"]:focus {
+[color~="action:bg:Cyan"]:hover,
+[color~="action:bg:Cyan"]:focus {
   background-color: #00bcd4;
   color: #000;
 }
-[color~="action:txt:Cyan:500"]:hover,
-[color~="action:txt:Cyan:500"]:focus {
+[color~="action:txt:Cyan"]:hover,
+[color~="action:txt:Cyan"]:focus {
   color: #00bcd4;
 }
 [color~="bg:Cyan:600"] {
@@ -1962,26 +1790,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Cyan:A700"]:focus {
   color: #00b8d4;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Teal"] {
-  background-color: #009688;
-  color: #fff;
-}
-[color~="txt:Teal"] {
-  color: #009688;
-}
-[color~="action:bg:Teal"]:hover,
-[color~="action:bg:Teal"]:focus {
-  background-color: #009688;
-  color: #fff;
-}
-[color~="action:txt:Teal"]:hover,
-[color~="action:txt:Teal"]:focus {
-  color: #009688;
-}
 [color~="bg:Teal:50"] {
   background-color: #e0f2f1;
   color: #000;
@@ -2062,20 +1870,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Teal:400"]:focus {
   color: #26a69a;
 }
-[color~="bg:Teal:500"] {
+[color~="bg:Teal"] {
   background-color: #009688;
   color: #fff;
 }
-[color~="txt:Teal:500"] {
+[color~="txt:Teal"] {
   color: #009688;
 }
-[color~="action:bg:Teal:500"]:hover,
-[color~="action:bg:Teal:500"]:focus {
+[color~="action:bg:Teal"]:hover,
+[color~="action:bg:Teal"]:focus {
   background-color: #009688;
   color: #fff;
 }
-[color~="action:txt:Teal:500"]:hover,
-[color~="action:txt:Teal:500"]:focus {
+[color~="action:txt:Teal"]:hover,
+[color~="action:txt:Teal"]:focus {
   color: #009688;
 }
 [color~="bg:Teal:600"] {
@@ -2206,26 +2014,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Teal:A700"]:focus {
   color: #00bfa5;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Green"] {
-  background-color: #4caf50;
-  color: #000;
-}
-[color~="txt:Green"] {
-  color: #4caf50;
-}
-[color~="action:bg:Green"]:hover,
-[color~="action:bg:Green"]:focus {
-  background-color: #4caf50;
-  color: #000;
-}
-[color~="action:txt:Green"]:hover,
-[color~="action:txt:Green"]:focus {
-  color: #4caf50;
-}
 [color~="bg:Green:50"] {
   background-color: #e8f5e9;
   color: #000;
@@ -2306,20 +2094,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Green:400"]:focus {
   color: #66bb6a;
 }
-[color~="bg:Green:500"] {
+[color~="bg:Green"] {
   background-color: #4caf50;
   color: #000;
 }
-[color~="txt:Green:500"] {
+[color~="txt:Green"] {
   color: #4caf50;
 }
-[color~="action:bg:Green:500"]:hover,
-[color~="action:bg:Green:500"]:focus {
+[color~="action:bg:Green"]:hover,
+[color~="action:bg:Green"]:focus {
   background-color: #4caf50;
   color: #000;
 }
-[color~="action:txt:Green:500"]:hover,
-[color~="action:txt:Green:500"]:focus {
+[color~="action:txt:Green"]:hover,
+[color~="action:txt:Green"]:focus {
   color: #4caf50;
 }
 [color~="bg:Green:600"] {
@@ -2450,26 +2238,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Green:A700"]:focus {
   color: #00c853;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:LightGreen"] {
-  background-color: #8bc34a;
-  color: #000;
-}
-[color~="txt:LightGreen"] {
-  color: #8bc34a;
-}
-[color~="action:bg:LightGreen"]:hover,
-[color~="action:bg:LightGreen"]:focus {
-  background-color: #8bc34a;
-  color: #000;
-}
-[color~="action:txt:LightGreen"]:hover,
-[color~="action:txt:LightGreen"]:focus {
-  color: #8bc34a;
-}
 [color~="bg:LightGreen:50"] {
   background-color: #f1f8e9;
   color: #000;
@@ -2550,20 +2318,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:LightGreen:400"]:focus {
   color: #9ccc65;
 }
-[color~="bg:LightGreen:500"] {
+[color~="bg:LightGreen"] {
   background-color: #8bc34a;
   color: #000;
 }
-[color~="txt:LightGreen:500"] {
+[color~="txt:LightGreen"] {
   color: #8bc34a;
 }
-[color~="action:bg:LightGreen:500"]:hover,
-[color~="action:bg:LightGreen:500"]:focus {
+[color~="action:bg:LightGreen"]:hover,
+[color~="action:bg:LightGreen"]:focus {
   background-color: #8bc34a;
   color: #000;
 }
-[color~="action:txt:LightGreen:500"]:hover,
-[color~="action:txt:LightGreen:500"]:focus {
+[color~="action:txt:LightGreen"]:hover,
+[color~="action:txt:LightGreen"]:focus {
   color: #8bc34a;
 }
 [color~="bg:LightGreen:600"] {
@@ -2694,26 +2462,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:LightGreen:A700"]:focus {
   color: #64dd17;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Lime"] {
-  background-color: #cddc39;
-  color: #000;
-}
-[color~="txt:Lime"] {
-  color: #cddc39;
-}
-[color~="action:bg:Lime"]:hover,
-[color~="action:bg:Lime"]:focus {
-  background-color: #cddc39;
-  color: #000;
-}
-[color~="action:txt:Lime"]:hover,
-[color~="action:txt:Lime"]:focus {
-  color: #cddc39;
-}
 [color~="bg:Lime:50"] {
   background-color: #f9fbe7;
   color: #000;
@@ -2794,20 +2542,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Lime:400"]:focus {
   color: #d4e157;
 }
-[color~="bg:Lime:500"] {
+[color~="bg:Lime"] {
   background-color: #cddc39;
   color: #000;
 }
-[color~="txt:Lime:500"] {
+[color~="txt:Lime"] {
   color: #cddc39;
 }
-[color~="action:bg:Lime:500"]:hover,
-[color~="action:bg:Lime:500"]:focus {
+[color~="action:bg:Lime"]:hover,
+[color~="action:bg:Lime"]:focus {
   background-color: #cddc39;
   color: #000;
 }
-[color~="action:txt:Lime:500"]:hover,
-[color~="action:txt:Lime:500"]:focus {
+[color~="action:txt:Lime"]:hover,
+[color~="action:txt:Lime"]:focus {
   color: #cddc39;
 }
 [color~="bg:Lime:600"] {
@@ -2938,26 +2686,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Lime:A700"]:focus {
   color: #aeea00;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Yellow"] {
-  background-color: #ffeb3b;
-  color: #000;
-}
-[color~="txt:Yellow"] {
-  color: #ffeb3b;
-}
-[color~="action:bg:Yellow"]:hover,
-[color~="action:bg:Yellow"]:focus {
-  background-color: #ffeb3b;
-  color: #000;
-}
-[color~="action:txt:Yellow"]:hover,
-[color~="action:txt:Yellow"]:focus {
-  color: #ffeb3b;
-}
 [color~="bg:Yellow:50"] {
   background-color: #fffde7;
   color: #000;
@@ -3038,20 +2766,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Yellow:400"]:focus {
   color: #ffee58;
 }
-[color~="bg:Yellow:500"] {
+[color~="bg:Yellow"] {
   background-color: #ffeb3b;
   color: #000;
 }
-[color~="txt:Yellow:500"] {
+[color~="txt:Yellow"] {
   color: #ffeb3b;
 }
-[color~="action:bg:Yellow:500"]:hover,
-[color~="action:bg:Yellow:500"]:focus {
+[color~="action:bg:Yellow"]:hover,
+[color~="action:bg:Yellow"]:focus {
   background-color: #ffeb3b;
   color: #000;
 }
-[color~="action:txt:Yellow:500"]:hover,
-[color~="action:txt:Yellow:500"]:focus {
+[color~="action:txt:Yellow"]:hover,
+[color~="action:txt:Yellow"]:focus {
   color: #ffeb3b;
 }
 [color~="bg:Yellow:600"] {
@@ -3182,26 +2910,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Yellow:A700"]:focus {
   color: #ffd600;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Amber"] {
-  background-color: #ffc107;
-  color: #000;
-}
-[color~="txt:Amber"] {
-  color: #ffc107;
-}
-[color~="action:bg:Amber"]:hover,
-[color~="action:bg:Amber"]:focus {
-  background-color: #ffc107;
-  color: #000;
-}
-[color~="action:txt:Amber"]:hover,
-[color~="action:txt:Amber"]:focus {
-  color: #ffc107;
-}
 [color~="bg:Amber:50"] {
   background-color: #fff8e1;
   color: #000;
@@ -3282,20 +2990,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Amber:400"]:focus {
   color: #ffca28;
 }
-[color~="bg:Amber:500"] {
+[color~="bg:Amber"] {
   background-color: #ffc107;
   color: #000;
 }
-[color~="txt:Amber:500"] {
+[color~="txt:Amber"] {
   color: #ffc107;
 }
-[color~="action:bg:Amber:500"]:hover,
-[color~="action:bg:Amber:500"]:focus {
+[color~="action:bg:Amber"]:hover,
+[color~="action:bg:Amber"]:focus {
   background-color: #ffc107;
   color: #000;
 }
-[color~="action:txt:Amber:500"]:hover,
-[color~="action:txt:Amber:500"]:focus {
+[color~="action:txt:Amber"]:hover,
+[color~="action:txt:Amber"]:focus {
   color: #ffc107;
 }
 [color~="bg:Amber:600"] {
@@ -3426,26 +3134,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Amber:A700"]:focus {
   color: #ffab00;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Orange"] {
-  background-color: #ff9800;
-  color: #000;
-}
-[color~="txt:Orange"] {
-  color: #ff9800;
-}
-[color~="action:bg:Orange"]:hover,
-[color~="action:bg:Orange"]:focus {
-  background-color: #ff9800;
-  color: #000;
-}
-[color~="action:txt:Orange"]:hover,
-[color~="action:txt:Orange"]:focus {
-  color: #ff9800;
-}
 [color~="bg:Orange:50"] {
   background-color: #fff3e0;
   color: #000;
@@ -3526,20 +3214,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Orange:400"]:focus {
   color: #ffa726;
 }
-[color~="bg:Orange:500"] {
+[color~="bg:Orange"] {
   background-color: #ff9800;
   color: #000;
 }
-[color~="txt:Orange:500"] {
+[color~="txt:Orange"] {
   color: #ff9800;
 }
-[color~="action:bg:Orange:500"]:hover,
-[color~="action:bg:Orange:500"]:focus {
+[color~="action:bg:Orange"]:hover,
+[color~="action:bg:Orange"]:focus {
   background-color: #ff9800;
   color: #000;
 }
-[color~="action:txt:Orange:500"]:hover,
-[color~="action:txt:Orange:500"]:focus {
+[color~="action:txt:Orange"]:hover,
+[color~="action:txt:Orange"]:focus {
   color: #ff9800;
 }
 [color~="bg:Orange:600"] {
@@ -3670,26 +3358,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Orange:A700"]:focus {
   color: #ff6d00;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:DeepOrange"] {
-  background-color: #ff5722;
-  color: #fff;
-}
-[color~="txt:DeepOrange"] {
-  color: #ff5722;
-}
-[color~="action:bg:DeepOrange"]:hover,
-[color~="action:bg:DeepOrange"]:focus {
-  background-color: #ff5722;
-  color: #fff;
-}
-[color~="action:txt:DeepOrange"]:hover,
-[color~="action:txt:DeepOrange"]:focus {
-  color: #ff5722;
-}
 [color~="bg:DeepOrange:50"] {
   background-color: #fbe9e7;
   color: #000;
@@ -3770,20 +3438,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:DeepOrange:400"]:focus {
   color: #ff7043;
 }
-[color~="bg:DeepOrange:500"] {
+[color~="bg:DeepOrange"] {
   background-color: #ff5722;
   color: #fff;
 }
-[color~="txt:DeepOrange:500"] {
+[color~="txt:DeepOrange"] {
   color: #ff5722;
 }
-[color~="action:bg:DeepOrange:500"]:hover,
-[color~="action:bg:DeepOrange:500"]:focus {
+[color~="action:bg:DeepOrange"]:hover,
+[color~="action:bg:DeepOrange"]:focus {
   background-color: #ff5722;
   color: #fff;
 }
-[color~="action:txt:DeepOrange:500"]:hover,
-[color~="action:txt:DeepOrange:500"]:focus {
+[color~="action:txt:DeepOrange"]:hover,
+[color~="action:txt:DeepOrange"]:focus {
   color: #ff5722;
 }
 [color~="bg:DeepOrange:600"] {
@@ -3914,26 +3582,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:DeepOrange:A700"]:focus {
   color: #dd2c00;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Brown"] {
-  background-color: #795548;
-  color: #fff;
-}
-[color~="txt:Brown"] {
-  color: #795548;
-}
-[color~="action:bg:Brown"]:hover,
-[color~="action:bg:Brown"]:focus {
-  background-color: #795548;
-  color: #fff;
-}
-[color~="action:txt:Brown"]:hover,
-[color~="action:txt:Brown"]:focus {
-  color: #795548;
-}
 [color~="bg:Brown:50"] {
   background-color: #efebe9;
   color: #000;
@@ -4014,20 +3662,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Brown:400"]:focus {
   color: #8d6e63;
 }
-[color~="bg:Brown:500"] {
+[color~="bg:Brown"] {
   background-color: #795548;
   color: #fff;
 }
-[color~="txt:Brown:500"] {
+[color~="txt:Brown"] {
   color: #795548;
 }
-[color~="action:bg:Brown:500"]:hover,
-[color~="action:bg:Brown:500"]:focus {
+[color~="action:bg:Brown"]:hover,
+[color~="action:bg:Brown"]:focus {
   background-color: #795548;
   color: #fff;
 }
-[color~="action:txt:Brown:500"]:hover,
-[color~="action:txt:Brown:500"]:focus {
+[color~="action:txt:Brown"]:hover,
+[color~="action:txt:Brown"]:focus {
   color: #795548;
 }
 [color~="bg:Brown:600"] {
@@ -4093,26 +3741,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Brown:900"]:hover,
 [color~="action:txt:Brown:900"]:focus {
   color: #3e2723;
-}
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:Grey"] {
-  background-color: #9e9e9e;
-  color: #000;
-}
-[color~="txt:Grey"] {
-  color: #9e9e9e;
-}
-[color~="action:bg:Grey"]:hover,
-[color~="action:bg:Grey"]:focus {
-  background-color: #9e9e9e;
-  color: #000;
-}
-[color~="action:txt:Grey"]:hover,
-[color~="action:txt:Grey"]:focus {
-  color: #9e9e9e;
 }
 [color~="bg:Grey:50"] {
   background-color: #fafafa;
@@ -4194,20 +3822,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Grey:400"]:focus {
   color: #bdbdbd;
 }
-[color~="bg:Grey:500"] {
+[color~="bg:Grey"] {
   background-color: #9e9e9e;
   color: #000;
 }
-[color~="txt:Grey:500"] {
+[color~="txt:Grey"] {
   color: #9e9e9e;
 }
-[color~="action:bg:Grey:500"]:hover,
-[color~="action:bg:Grey:500"]:focus {
+[color~="action:bg:Grey"]:hover,
+[color~="action:bg:Grey"]:focus {
   background-color: #9e9e9e;
   color: #000;
 }
-[color~="action:txt:Grey:500"]:hover,
-[color~="action:txt:Grey:500"]:focus {
+[color~="action:txt:Grey"]:hover,
+[color~="action:txt:Grey"]:focus {
   color: #9e9e9e;
 }
 [color~="bg:Grey:600"] {
@@ -4273,26 +3901,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Grey:900"]:hover,
 [color~="action:txt:Grey:900"]:focus {
   color: #212121;
-}
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-[color~="bg:BlueGrey"] {
-  background-color: #607d8b;
-  color: #fff;
-}
-[color~="txt:BlueGrey"] {
-  color: #607d8b;
-}
-[color~="action:bg:BlueGrey"]:hover,
-[color~="action:bg:BlueGrey"]:focus {
-  background-color: #607d8b;
-  color: #fff;
-}
-[color~="action:txt:BlueGrey"]:hover,
-[color~="action:txt:BlueGrey"]:focus {
-  color: #607d8b;
 }
 [color~="bg:BlueGrey:50"] {
   background-color: #eceff1;
@@ -4374,20 +3982,20 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:BlueGrey:400"]:focus {
   color: #78909c;
 }
-[color~="bg:BlueGrey:500"] {
+[color~="bg:BlueGrey"] {
   background-color: #607d8b;
   color: #fff;
 }
-[color~="txt:BlueGrey:500"] {
+[color~="txt:BlueGrey"] {
   color: #607d8b;
 }
-[color~="action:bg:BlueGrey:500"]:hover,
-[color~="action:bg:BlueGrey:500"]:focus {
+[color~="action:bg:BlueGrey"]:hover,
+[color~="action:bg:BlueGrey"]:focus {
   background-color: #607d8b;
   color: #fff;
 }
-[color~="action:txt:BlueGrey:500"]:hover,
-[color~="action:txt:BlueGrey:500"]:focus {
+[color~="action:txt:BlueGrey"]:hover,
+[color~="action:txt:BlueGrey"]:focus {
   color: #607d8b;
 }
 [color~="bg:BlueGrey:600"] {
@@ -4454,10 +4062,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:BlueGrey:900"]:focus {
   color: #263238;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
 [color~="bg:Black"] {
   background-color: #000;
   color: #fff;
@@ -4474,10 +4078,6 @@ bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 
 [color~="action:txt:Black"]:focus {
   color: #000;
 }
-colores: 'Red' 'Pink' 'Purple' 'DeepPurple' 'Indigo' 'Blue' 'LightBlue' 'Cyan' 'Teal' 'Green' 'LightGreen' 'Lime' 'Yellow' 'Amber' 'Orange' 'DeepOrange' 'Brown' 'Grey' 'BlueGrey' 'Black' 'White';
-grados: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
-colores: #ffebee #000 #ffcdd2 #000 #ef9a9a #000 #e57373 #000 #ef5350 #fff #f44336 #fff #e53935 #fff #d32f2f #fff #c62828 #fff #b71c1c #fff #f44336 #fff #ff8a80 #000 #ff5252 #fff #ff1744 #fff #d50000 #fff;
-bg: '50' '100' '200' '300' '400' '500' '600' '700' '800' '900' '' 'A100' 'A200' 'A400' 'A700';
 [color~="bg:White"] {
   background-color: #fff;
   color: #000;
