@@ -1,5 +1,5 @@
 @import palette
-for bc, i in 'bg:''txt:''action:bg:''action:txt:'
+for bc, i in '''txt:''action:''action:txt:'
 	for color, c in keys($palette)
 		for accent in keys(values($palette)[c])
 			[color~=\"{bc}{color}{accent}\"]
