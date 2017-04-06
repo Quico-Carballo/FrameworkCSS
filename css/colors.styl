@@ -1,7 +1,7 @@
 @import palette
-for color, i in keys($palette)
-	for accent in keys(values($palette)[i])
-		for bc in 'bg:''txt:''action:bg:''action:txt:'
+for bc in 'bg:''txt:''action:bg:''action:txt:'
+	for color, i in keys($palette)
+		for accent in keys(values($palette)[i])
 			[color~=\"{bc}{color}{accent}\"]
 				action=(bc=='action:bg:'or'action:txt:'==bc)?'&:hover,&:focus':'&,&'
 				{action}
