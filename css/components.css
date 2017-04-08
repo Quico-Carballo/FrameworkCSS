@@ -107,6 +107,7 @@ button:after,
   color: #fff;
   display: flex;
   padding: 0.5em;
+  text-shadow: 0 0 2px #000;
   z-index: 1;
 }
 [card] header img {
@@ -151,7 +152,7 @@ button:after,
   z-index: 1;
 }
 [card] header:hover+img {
-  filter: blur(5px);
+  filter: blur(3px);
   z-index: 0;
 }
 [card] header:hover+img+h3 {
