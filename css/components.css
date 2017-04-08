@@ -164,13 +164,13 @@ button:after,
   margin: 0.5em;
   margin-top: -1.5em;
 }
+[card] img+h3:hover {
+  display: none;
+}
 [card] h3 {
   line-height: 1em;
   margin: 1em;
   text-align: center;
-}
-[card] h3:hover {
-  display: none;
 }
 [card] figcaption {
   margin: 0;
