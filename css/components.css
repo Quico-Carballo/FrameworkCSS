@@ -135,7 +135,7 @@ button:after,
   z-index: 1;
 }
 [card] header+img:hover {
-  filter: blur(5px);
+  filter: blur(3px);
   z-index: 0;
 }
 [card] header+img:hover+h3 {
@@ -168,6 +168,9 @@ button:after,
   line-height: 1em;
   margin: 1em;
   text-align: center;
+}
+[card] h3:hover {
+  display: none;
 }
 [card] figcaption {
   margin: 0;
