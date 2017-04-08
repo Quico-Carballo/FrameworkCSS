@@ -127,8 +127,6 @@ button:after,
 [card] header+img {
   margin-top: -4.2em;
   transition: all 0.5s ease;
-  width: 100%;
-  object-fit: cover;
   z-index: 1;
 }
 [card] header+img+h3 {
@@ -160,6 +158,9 @@ button:after,
 }
 [card] header+img+h3:hover {
   display: none;
+}
+[card] img {
+  object-fit: cover;
 }
 [card] img+h3 {
   color: #fff;
