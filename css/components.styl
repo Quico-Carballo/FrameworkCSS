@@ -81,6 +81,7 @@ a,button,[input]
 		color white
 		display flex
 		padding .5em
+		z-index 1
 		img
 			border .1em dashed white
 			border-radius 50%
@@ -95,19 +96,31 @@ a,button,[input]
 			margin .3em 0
 		&+img
 			margin-top -4.2em
-	&:hover>header
-		z-index 1
-	&:hover>header+img
-		filter blur(5px)
-	img
-		transition all 1s ease
-		&:hover
-			filter blur(5px)
+			transition all .5s ease
+			width 100%
+			object-fit cover
+			z-index 1
 			&+h3
-				display none
-		width 100%
-		object-fit cover
-
+				z-index 1
+			&:hover
+				filter blur(5px)
+				z-index 0
+				&+h3
+					display none
+		&:hover+img
+			margin-top -4.2em
+			transition all .5s ease
+			width 100%
+			object-fit cover
+			z-index 1
+			&+h3
+				z-index 1
+			&
+				filter blur(5px)
+				z-index 0
+				&+h3
+					display none
+	img
 		&+h3
 			color white
 			text-shadow 0 0 2px black
