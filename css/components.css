@@ -104,6 +104,7 @@ button:after,
   margin: 1em;
 }
 [card] header {
+  color: #fff;
   display: flex;
   padding: 0.5em;
 }
