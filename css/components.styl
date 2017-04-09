@@ -30,7 +30,7 @@ body
 		justify-content center
 		flex 1 1 auto
 
-a,button,[input]
+a,button
 	font 1em/2em Roboto
 	display flex
 	align-items center
@@ -50,21 +50,34 @@ a,button,[input]
 		text-transform lowercase
 
 [input]
-	display flex
+	display inline-flex
 	align-items center
-	line-height 2em
-	border 1px solid grey
-	border-radius 25em	
+	border 1px solid #F0F0F0
+	border-radius .2em
+	background white
+	overflow hidden	
+	&:before
+		//border-right inherit
+		content attr(before)
+		padding-left .75em
+	&:after
+		//border-left inherit
+		content attr(after)
+		padding-right .75em
+	&:before,&:after
+		//background-color #F8F8F8
+		font-family 'Material Icons'
+		font-size 1.5em
+		text-transform lowercase
 	input
-		border inherit
-		border-width 0 1px 0 1px
-		//background-color transparent
-		line-height inherit
-		padding 0 .5em
-		&:before
-			border-right 1px solid grey
-		&:after
-			border-left 1px solid grey
+		flex 1
+		font 1em/3em Roboto
+		border none
+		background-color transparent
+		color inherit
+		padding 0 1em
+		&:not(:first-child)
+			border-left 1px solid #F8F8F8
 
 [card~="radius"]
 	border-radius .3em

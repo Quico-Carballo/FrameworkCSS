@@ -11,8 +11,10 @@ html(lang="es-ES")
 		meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
 	body(StickyFooter color="bg:Grey:100")
 		header(color="bg:BlueGrey") HEADER
-		main
-			div(grid="justify:center center")
-				div(input before="account_circle" after="account_circle")
-					input(type="text" placeholder="Escribe algo...")
+		main(grid="justify:center center")
+			div(cell)
+				center
+					label(input before="person" color="txt:BlueGrey:700")
+						input(type="text" placeholder="Nombre")
+						input(type="text" placeholder="Apellidos")
 		footer(color="bg:BlueGrey") FOOTER

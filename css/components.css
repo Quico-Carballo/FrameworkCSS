@@ -40,8 +40,7 @@ html {
   flex: 1 1 auto;
 }
 a,
-button,
-[input] {
+button {
   font: 1em/2em Roboto;
   display: flex;
   align-items: center;
@@ -51,45 +50,55 @@ button,
   text-transform: uppercase;
 }
 a:before,
-button:before,
-[input]:before {
+button:before {
   content: attr(before);
   padding-right: 0.25em;
 }
 a:after,
-button:after,
-[input]:after {
+button:after {
   content: attr(after);
   padding-left: 0.25em;
 }
 a:before,
 button:before,
-[input]:before,
 a:after,
-button:after,
-[input]:after {
+button:after {
   font-family: 'Material Icons';
   font-size: 1.3em;
   text-transform: lowercase;
 }
 [input] {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  line-height: 2em;
-  border: 1px solid #808080;
-  border-radius: 25em;
+  border: 1px solid #f0f0f0;
+  border-radius: 0.2em;
+  background: #fff;
+  overflow: hidden;
+}
+[input]:before {
+  content: attr(before);
+  padding-left: 0.75em;
+}
+[input]:after {
+  content: attr(after);
+  padding-right: 0.75em;
+}
+[input]:before,
+[input]:after {
+  font-family: 'Material Icons';
+  font-size: 1.5em;
+  text-transform: lowercase;
 }
 [input] input {
-  border: inherit;
-  border-width: 0 1px 0 1px;
-  line-height: inherit;
-  padding: 0 0.5em;
+  flex: 1;
+  font: 1em/3em Roboto;
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  padding: 0 1em;
 }
-[input] input:before {
-  border-right: 1px solid #808080;
-}
-[input] input:after {
-  border-left: 1px solid #808080;
+[input] input:not(:first-child) {
+  border-left: 1px solid #f8f8f8;
 }
 [card~="radius"] {
   border-radius: 0.3em;
