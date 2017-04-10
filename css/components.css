@@ -96,6 +96,7 @@ button:after {
   color: inherit;
 }
 [input] input[type="submit"] {
+  transition: all 1s ease;
   background-image: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.1));
 }
 [input] input[type="submit"]:hover,
