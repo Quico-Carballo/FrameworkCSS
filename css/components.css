@@ -78,13 +78,6 @@ button:after {
 [input]:before {
   content: attr(before);
   padding-left: 0.75em;
-}
-[input]:after {
-  content: attr(after);
-  padding-right: 0.75em;
-}
-[input]:before,
-[input]:after {
   font-family: 'Material Icons';
   font-size: 1.5em;
   text-transform: lowercase;
@@ -93,12 +86,17 @@ button:after {
   flex: 1;
   font: 1em/3em Roboto;
   border: none;
-  background-color: transparent;
-  color: inherit;
   padding: 0 1em;
 }
 [input] input:not(:first-child) {
   border-left: 1px solid #f8f8f8;
+}
+[input] input[type="text"] {
+  background-color: inherit;
+  color: inherit;
+}
+[input] input[type="button"] {
+  margin-right: 21.75em;
 }
 [card~="radius"] {
   border-radius: 0.3em;

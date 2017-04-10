@@ -10,11 +10,14 @@ html(lang="es-ES")
 		link(href="css/MaterialIcons.css" rel="stylesheet")
 		meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
 	body(StickyFooter color="bg:Grey:100")
-		header(color="bg:BlueGrey") HEADER
+		header(color="BlueGrey") HEADER
 		main(grid="justify:center center")
 			div(cell)
+				br
 				center
-					label(input before="person" color="txt:BlueGrey:700")
-						input(type="text" placeholder="Nombre")
-						input(type="text" placeholder="Apellidos")
-		footer(color="bg:BlueGrey") FOOTER
+					form
+						label(input before="person" color="txt:BlueGrey:700")
+							input(type="text" placeholder="Nombre")
+							input(type="text" placeholder="Apellidos")
+							input(type="submit" value="Enviar" color="BLue")
+		footer(color="BlueGrey") FOOTER

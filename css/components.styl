@@ -57,15 +57,8 @@ a,button
 	background white
 	overflow hidden	
 	&:before
-		//border-right inherit
 		content attr(before)
 		padding-left .75em
-	&:after
-		//border-left inherit
-		content attr(after)
-		padding-right .75em
-	&:before,&:after
-		//background-color #F8F8F8
 		font-family 'Material Icons'
 		font-size 1.5em
 		text-transform lowercase
@@ -73,11 +66,14 @@ a,button
 		flex 1
 		font 1em/3em Roboto
 		border none
-		background-color transparent
-		color inherit
 		padding 0 1em
 		&:not(:first-child)
 			border-left 1px solid #F8F8F8
+	input[type="text"]
+		background-color inherit
+		color inherit
+	input[type="button"]
+		margin-right 21.75em
 
 [card~="radius"]
 	border-radius .3em
