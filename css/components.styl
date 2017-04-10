@@ -59,10 +59,13 @@ a,button
 	overflow hidden	
 	&:before
 		content attr(before)
-		padding-left .75em
 		font-family 'Material Icons'
 		font-size 1.5em
 		text-transform lowercase
+	&[before]:before
+		padding-left .75em
+	&:not([before]:before)
+		padding-left 0
 	input
 		font 1em/3em Roboto
 		border none

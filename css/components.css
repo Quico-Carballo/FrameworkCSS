@@ -78,10 +78,15 @@ button:after {
 }
 [input]:before {
   content: attr(before);
-  padding-left: 0.75em;
   font-family: 'Material Icons';
   font-size: 1.5em;
   text-transform: lowercase;
+}
+[input][before]:before {
+  padding-left: 0.75em;
+}
+[input]:not([before]:before) {
+  padding-left: 0;
 }
 [input] input {
   font: 1em/3em Roboto;
