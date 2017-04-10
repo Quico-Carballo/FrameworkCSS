@@ -95,8 +95,15 @@ button:after {
   background-color: inherit;
   color: inherit;
 }
-[input] input[type="button"] {
-  margin-right: 21.75em;
+[input] input[type="submit"] {
+  background-image: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+}
+[input] input[type="submit"]:hover,
+[input] input[type="submit"]:focus {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.1));
+}
+[input] input[type="submit"]::-moz-focus-inner {
+  border: none;
 }
 [card~="radius"] {
   border-radius: 0.3em;
