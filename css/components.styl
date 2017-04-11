@@ -158,15 +158,16 @@ a,button
 		button::-moz-focus-inner
 			border 0
 		a,button
+			transition all .25s ease
 			&:active
 				transform scale(.85)
+				font 1.15em/2.55em Roboto
 			padding 0
 			justify-content center
 			flex 1 1 auto
 			font 1em/3em Roboto
 			outline none
 			border none
-			transition all 1s
 			background-color trasparent
 			&:hover,&:focus
 				outline none
@@ -174,7 +175,6 @@ a,button
 	[buttons~="3D"]
 		a,button
 			background-image linear-gradient(rgba(white,.1),rgba(black,.1))
-			transition all 1s ease
 			&:hover,&:focus
 				background-image linear-gradient(rgba(black,.1),rgba(white,.1))
 	[buttons~="border"]

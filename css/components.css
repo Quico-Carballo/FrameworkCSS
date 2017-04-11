@@ -201,18 +201,19 @@ button:after {
 }
 [card] [buttons] a,
 [card] [buttons] button {
+  transition: all 0.25s ease;
   padding: 0;
   justify-content: center;
   flex: 1 1 auto;
   font: 1em/3em Roboto;
   outline: none;
   border: none;
-  transition: all 1s;
   background-color: trasparent;
 }
 [card] [buttons] a:active,
 [card] [buttons] button:active {
   transform: scale(0.85);
+  font: 1.15em/2.55em Roboto;
 }
 [card] [buttons] a:hover,
 [card] [buttons] button:hover,
@@ -223,7 +224,6 @@ button:after {
 [card] [buttons~="3D"] a,
 [card] [buttons~="3D"] button {
   background-image: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.1));
-  transition: all 1s ease;
 }
 [card] [buttons~="3D"] a:hover,
 [card] [buttons~="3D"] button:hover,
