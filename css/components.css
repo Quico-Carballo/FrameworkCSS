@@ -210,6 +210,10 @@ button:after {
   transition: all 1s;
   background-color: trasparent;
 }
+[card] [buttons] a:active,
+[card] [buttons] button:active {
+  transform: scale(0.85);
+}
 [card] [buttons] a:hover,
 [card] [buttons] button:hover,
 [card] [buttons] a:focus,
