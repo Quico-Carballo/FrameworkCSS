@@ -1,14 +1,17 @@
-- var card1 = 'DeepOrange';
-- var card11 = card1+':700';
-- var card12 = 'action:'+card1+':900';
+- var border = 'border'
+- var DDD= '3D'
 
-- var card2 = 'LightGreen';
-- var card21 = card2+':700';
-- var card22 = 'action:'+card2+':900';
+- var card1 = 'DeepOrange'
+- var card11 = card1+':700'
+- var card12 = 'action:'+card1+':900'
 
-- var card3 = 'Cyan';
-- var card31 = card3+':700';
-- var card32 = 'action:'+card3+':900';
+- var card2 = 'LightGreen'
+- var card21 = card2+':700'
+- var card22 = 'action:'+card2+':900'
+
+- var card3 = 'Cyan'
+- var card31 = card3+':700'
+- var card32 = 'action:'+card3+':900'
 
 doctype
 html(lang="es-ES")
@@ -17,7 +20,7 @@ html(lang="es-ES")
 		meta(charset:utf-8)
 		link(href="css/grid.css" rel="stylesheet")
 		link(href="css/components.css" rel="stylesheet")
-		link(href="css/colors.css" rel="stylesheet")
+		link(href="css/colors-lite.css" rel="stylesheet")
 		link(href="css/Roboto.css" rel="stylesheet")
 		link(href="css/MaterialIcons.css" rel="stylesheet")
 		meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
@@ -35,16 +38,16 @@ html(lang="es-ES")
 								small Aventurero
 						img(src="img/1.jpg")
 						h3 Diez años de teletrabajo
-						footer(buttons="border 3D")
+						footer(buttons=border+' '+DDD)
 							a(href="#card1" before="work" color=card11+' '+card12) Trabajo
 							a(href="#card1" before="home" color=card11+' '+card12) Casa
-						figcaption(color=card1) Tras diez años de teletrabajo, esto puedo decir sobre los mitos y realidades de trabajar desde casa.
+						figcaption(color=card11) Tras diez años de teletrabajo, esto puedo decir sobre los mitos y realidades de trabajar desde casa.
 				div(cell)
 					a(name="card2")
 					figure(card="radius")
 						img(src="img/2.jpg")
 						h3 Octava beta de macOS Sierra
-						footer(buttons="border 3D")
+						footer(buttons=border+' '+DDD)
 							a(href="#card2" before="laptop" color=card21+' '+card22) MacBook
 							a(href="#card2" before="laptop_mac" color=card21+' '+card22) Pro
 						figcaption(color=card21) ¡Betas! La octava de macOS Sierra 10.12.4 y la séptima de watchOS 3.2 ya disponibles.
@@ -53,7 +56,7 @@ html(lang="es-ES")
 					figure(card="radius")
 						img(src="img/3.jpg")
 						h3 Séptima beta de iOS
-						footer(buttons="border 3D" color=card3)
+						footer(buttons=border+' '+DDD color=card3)
 							a(href="#card3" before="desktop_mac" color=card31+' '+card32) IOS
 							a(href="#card3" before="phone_iphone" color=card31+' '+card32) MacOS
 						figcaption(color=card31) Apple lanza la séptima beta de iOS 10.3 y macOS 10.12.4 para desarrolladores.

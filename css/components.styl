@@ -50,9 +50,9 @@ a,button
 		text-transform lowercase
 
 [input]
-	display inline-flex
+	display flex
 	align-items center
-	border 1px solid #F0F0F0
+	//border 1px solid #F0F0F0
 	border-radius .2em
 	background white
 	margin 1em
@@ -71,7 +71,7 @@ a,button
 		border none
 		padding 0 1em
 		&:not(:first-child)
-			border-left 1px solid #F8F8F8
+			//border-left 1px solid #F8F8F8
 	input[type="text"]
 		flex 1
 		background-color inherit
@@ -181,3 +181,7 @@ a,button
 					inset 0 1px 0 0 rgba(white,.1),
 					inset 0 -1px 0 0 rgba(black,.1),
 					0 1px 0 0 rgba(white,.1)
+input[type="text"]:invalid
+	box-shadow none
+	&~input[type="submit"]
+		opacity .5

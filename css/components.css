@@ -68,9 +68,8 @@ button:after {
   text-transform: lowercase;
 }
 [input] {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  border: 1px solid #f0f0f0;
   border-radius: 0.2em;
   background: #fff;
   margin: 1em;
@@ -92,9 +91,6 @@ button:after {
   font: 1em/3em Roboto;
   border: none;
   padding: 0 1em;
-}
-[input] input:not(:first-child) {
-  border-left: 1px solid #f8f8f8;
 }
 [input] input[type="text"] {
   flex: 1;
@@ -234,4 +230,10 @@ button:after {
 [card] [buttons~="border"] a,
 [card] [buttons~="border"] button {
   box-shadow: 0 -1px 0 0 rgba(0,0,0,0.1), inset 0 1px 0 0 rgba(255,255,255,0.1), inset 0 -1px 0 0 rgba(0,0,0,0.1), 0 1px 0 0 rgba(255,255,255,0.1);
+}
+input[type="text"]:invalid {
+  box-shadow: none;
+}
+input[type="text"]:invalid~input[type="submit"] {
+  opacity: 0.5;
 }
