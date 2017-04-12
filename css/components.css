@@ -201,8 +201,7 @@ button:after {
 }
 [card] [buttons] a,
 [card] [buttons] button {
-  transition: all 0.25s ease;
-  padding: 0;
+  transition: all 0.5s ease;
   justify-content: center;
   flex: 1 1 auto;
   font: 1em/3em Roboto;
@@ -212,8 +211,8 @@ button:after {
 }
 [card] [buttons] a:active,
 [card] [buttons] button:active {
-  transform: scale(0.85);
-  font: 1.15em/2.55em Roboto;
+  font: 1em/2.6em Roboto;
+  margin: 0.2em;
 }
 [card] [buttons] a:hover,
 [card] [buttons] button:hover,
@@ -231,9 +230,15 @@ button:after {
 [card] [buttons~="3D"] button:focus {
   background-image: linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.1));
 }
-[card] [buttons~="border"] a,
-[card] [buttons~="border"] button {
-  box-shadow: 0 -1px 0 0 rgba(0,0,0,0.1), inset 0 1px 0 0 rgba(255,255,255,0.1), inset 0 -1px 0 0 rgba(0,0,0,0.1), 0 1px 0 0 rgba(255,255,255,0.1);
+[card] [buttons~="border"] a box-shadow 0 -1px 0 0 rgba(black,
+[card] [buttons~="border"] button box-shadow 0 -1px 0 0 rgba(black,
+[card] [buttons~="border"] a .1),
+[card] [buttons~="border"] button .1),
+[card] [buttons~="border"] a inset 0 1px 0 0 rgba(white,
+[card] [buttons~="border"] button inset 0 1px 0 0 rgba(white,
+[card] [buttons~="border"] a .1)75,
+[card] [buttons~="border"] button .1)75 {
+  inset: 0 -1px 0 0 rgba(0,0,0,0.1), 0 1px 0 0 rgba(255,255,255,0.1);
 }
 input[type="text"]:invalid {
   box-shadow: none;

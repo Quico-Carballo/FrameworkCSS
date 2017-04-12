@@ -158,11 +158,11 @@ a,button
 		button::-moz-focus-inner
 			border 0
 		a,button
-			transition all .25s ease
+			transition all .5s ease
 			&:active
-				transform scale(.85)
-				font 1.15em/2.55em Roboto
-			padding 0
+				//transform scale(.8)
+				font 1em/2.6em Roboto
+				margin .2em
 			justify-content center
 			flex 1 1 auto
 			font 1em/3em Roboto
@@ -180,7 +180,7 @@ a,button
 	[buttons~="border"]
 		a,button
 			box-shadow 0 -1px 0 0 rgba(black,.1),
-					inset 0 1px 0 0 rgba(white,.1),
+					inset 0 1px 0 0 rgba(white,.1)75
 					inset 0 -1px 0 0 rgba(black,.1),
 					0 1px 0 0 rgba(white,.1)
 input[type="text"]:invalid
