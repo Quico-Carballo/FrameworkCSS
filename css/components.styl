@@ -153,35 +153,36 @@ a,button
 		margin 0
 		padding 1em
 
-	[buttons]
-		display flex
-		button::-moz-focus-inner
-			border 0
-		a,button
-			transition all .5s ease
-			justify-content center
-			flex 1 1 auto
+[buttons]
+	display flex
+	button::-moz-focus-inner
+		border 0
+	a,button
+		transition all .5s ease
+		justify-content center
+		flex 1 1 auto
+		font 1em/3em Roboto
+		outline none
+		border none
+		background-color trasparent
+		&:active
+			border-radius .2em
 			font 1em/3em Roboto
+			transform scale(.85)
+		&:hover,&:focus
 			outline none
-			border none
-			background-color trasparent
-			&:active
-				transform scale(.85)
-				font 1em/3em Roboto
-			&:hover,&:focus
-				outline none
 
-	[buttons~="3D"]
-		a,button
-			background-image linear-gradient(rgba(white,.1),rgba(black,.1))
-			&:hover,&:focus
-				background-image linear-gradient(rgba(black,.1),rgba(white,.1))
-	[buttons~="border"]
-		a,button
-			box-shadow 0 -1px 0 0 rgba(black,.1),
-					inset 0 1px 0 0 rgba(white,.1)75
-					inset 0 -1px 0 0 rgba(black,.1),
-					0 1px 0 0 rgba(white,.1)
+[buttons~="3D"]
+	a,button
+		background-image linear-gradient(rgba(white,.1),rgba(black,.1))
+		&:hover,&:focus
+			background-image linear-gradient(rgba(black,.1),rgba(white,.1))
+[buttons~="border"]
+	a,button
+		box-shadow 0 -1px 0 0 rgba(black,.1),
+				inset 0 1px 0 0 rgba(white,.1),
+				inset 0 -1px 0 0 rgba(black,.1),
+				0 1px 0 0 rgba(white,.1)
 input[type="text"]:invalid
 	box-shadow none
 	&~input[type="submit"]
