@@ -211,8 +211,8 @@ button:after {
 }
 [card] [buttons] a:active,
 [card] [buttons] button:active {
-  font: 1em/2.6em Roboto;
-  margin: 0.2em;
+  transform: scale(0.85);
+  font: 1em/3em Roboto;
 }
 [card] [buttons] a:hover,
 [card] [buttons] button:hover,
