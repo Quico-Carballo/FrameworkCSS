@@ -166,10 +166,13 @@ a,button
 		border none
 		background-color trasparent
 		&:active
-			border-radius .2em
 			font 1em/3em Roboto
-			transform scale(.85)
 		&:hover,&:focus
+			&:active
+				border-radius .2em
+				transform scale(.85)
+			border-radius 0
+			transform scale(1)
 			outline none
 
 [buttons~="3D"]

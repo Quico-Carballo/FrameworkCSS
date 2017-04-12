@@ -211,15 +211,22 @@ button:after {
 }
 [buttons] a:active,
 [buttons] button:active {
-  border-radius: 0.2em;
   font: 1em/3em Roboto;
-  transform: scale(0.85);
 }
 [buttons] a:hover,
 [buttons] button:hover,
 [buttons] a:focus,
 [buttons] button:focus {
+  border-radius: 0;
+  transform: scale(1);
   outline: none;
+}
+[buttons] a:hover:active,
+[buttons] button:hover:active,
+[buttons] a:focus:active,
+[buttons] button:focus:active {
+  border-radius: 0.2em;
+  transform: scale(0.85);
 }
 [buttons~="3D"] a,
 [buttons~="3D"] button {
