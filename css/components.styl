@@ -29,10 +29,14 @@ body
 	&>a,&>button
 		justify-content center
 		flex 1 1 auto
+label
+	input
+		background-color transparent
+		border 0
 
-a,button
+a,button,[label]
 	font 1em/2em Roboto
-	display flex
+	display inline-flex
 	align-items center
 	padding 0 .5em
 	border 0
@@ -48,6 +52,41 @@ a,button
 		font-family 'Material Icons'
 		font-size 1.3em
 		text-transform lowercase
+
+form
+	display flex
+	[label~="button"]
+		background-image linear-gradient(rgba(white,.1),rgba(black,.1))
+	[label]
+		border-radius .3em
+		&:not(:first-child)
+			border-top-left-radius 0
+			border-bottom-left-radius 0
+		&:not(:last-child)
+			border-top-right-radius 0
+			border-bottom-right-radius 0
+		display flex
+		font 1em/3em Roboto
+		input
+			flex 1
+			background-color inherit
+			color inherit
+			font inherit
+			flex 1
+			padding 0 .5em
+			&[type="submit"]
+				font-family 'Material Icons'
+				button::-moz-focus-inner
+					border 0
+		&[before]:before
+			padding-left .5em
+		&:not([before]:before)
+			padding-left 0
+		&[after]:after
+			padding-right .5em
+		&:not([after]:after)
+			padding-right 0
+
 
 [input]
 	display flex
@@ -69,8 +108,6 @@ a,button
 		font 1em/3em Roboto
 		border none
 		padding 0 1em
-		&:not(:first-child)
-			//border-left 1px solid #F8F8F8
 	input[type="text"]
 		flex 1
 		background-color inherit
@@ -174,7 +211,7 @@ a,button
 [buttons~="3D"]
 	a,button
 		background-image linear-gradient(rgba(white,.1),rgba(black,.1))
-		&:hover,&:focus
+		&:hover,&:focus,&:active
 			background-image linear-gradient(rgba(black,.1),rgba(white,.1))
 [buttons~="border"]
 	a,button

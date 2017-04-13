@@ -39,10 +39,15 @@ html {
   justify-content: center;
   flex: 1 1 auto;
 }
+label input {
+  background-color: transparent;
+  border: 0;
+}
 a,
-button {
+button,
+[label] {
   font: 1em/2em Roboto;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   padding: 0 0.5em;
   border: 0;
@@ -50,22 +55,71 @@ button {
   text-transform: uppercase;
 }
 a:before,
-button:before {
+button:before,
+[label]:before {
   content: attr(before);
   padding-right: 0.25em;
 }
 a:after,
-button:after {
+button:after,
+[label]:after {
   content: attr(after);
   padding-left: 0.25em;
 }
 a:before,
 button:before,
+[label]:before,
 a:after,
-button:after {
+button:after,
+[label]:after {
   font-family: 'Material Icons';
   font-size: 1.3em;
   text-transform: lowercase;
+}
+form {
+  display: flex;
+}
+form [label~="button"] {
+  background-image: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+}
+form [label] {
+  border-radius: 0.3em;
+  display: flex;
+  font: 1em/3em Roboto;
+}
+form [label]:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+form [label]:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+form [label] input {
+  flex: 1;
+  background-color: inherit;
+  color: inherit;
+  font: inherit;
+  flex: 1;
+  padding: 0 0.5em;
+}
+form [label] input[type="submit"] {
+  font-family: 'Material Icons';
+}
+form [label] input[type="submit"] button::-moz-focus-inner {
+  border: 0;
+}
+form [label][before]:before {
+  padding-left: 0.5em;
+}
+form [label]:not([before]:before) {
+  padding-left: 0;
+}
+form [label][after]:after {
+  padding-right: 0.5em;
+}
+form [label]:not([after]:after) {
+  padding-right: 0;
 }
 [input] {
   display: flex;
@@ -228,7 +282,9 @@ button:after {
 [buttons~="3D"] a:hover,
 [buttons~="3D"] button:hover,
 [buttons~="3D"] a:focus,
-[buttons~="3D"] button:focus {
+[buttons~="3D"] button:focus,
+[buttons~="3D"] a:active,
+[buttons~="3D"] button:active {
   background-image: linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.1));
 }
 [buttons~="border"] a,
