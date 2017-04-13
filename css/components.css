@@ -78,9 +78,11 @@ button:after,
 }
 form {
   display: flex;
-}
-form [label~="button"] {
   background-image: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+}
+form [label~="button"],
+form [label~="button"]:active {
+  transform: scale(1.5);
 }
 form [label] {
   border-radius: 0.3em;
