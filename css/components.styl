@@ -55,10 +55,6 @@ a,button,[label]
 
 form
 	display flex
-	[label~="button"]
-	[label~="button"]:active
-				transform scale(1.5)
-		background-image linear-gradient(rgba(white,.1),rgba(black,.1))
 	[label]
 		border-radius .3em
 		&:not(:first-child)
@@ -77,7 +73,12 @@ form
 			flex 1
 			padding 0 .5em
 			&[type="submit"]
-				font-family 'Material Icons'
+				&[value=""]:before
+					padding-right 0
+				&[value=""]:after
+					padding-left 0
+				&[value=""]
+					display none
 				button::-moz-focus-inner
 					border 0
 		&[before]:before

@@ -78,11 +78,6 @@ button:after,
 }
 form {
   display: flex;
-  background-image: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.1));
-}
-form [label~="button"],
-form [label~="button"]:active {
-  transform: scale(1.5);
 }
 form [label] {
   border-radius: 0.3em;
@@ -105,8 +100,14 @@ form [label] input {
   flex: 1;
   padding: 0 0.5em;
 }
-form [label] input[type="submit"] {
-  font-family: 'Material Icons';
+form [label] input[type="submit"][value=""]:before {
+  padding-right: 0;
+}
+form [label] input[type="submit"][value=""]:after {
+  padding-left: 0;
+}
+form [label] input[type="submit"][value=""] {
+  display: none;
 }
 form [label] input[type="submit"] button::-moz-focus-inner {
   border: 0;
