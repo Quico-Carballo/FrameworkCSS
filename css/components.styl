@@ -34,7 +34,7 @@ label
 		background-color transparent
 		border 0
 
-a,button,[label]
+a,button,[label],[label]>input[type="submit"]
 	font 1em/2em Roboto
 	display inline-flex
 	align-items center
@@ -55,15 +55,14 @@ a,button,[label]
 
 form
 	display flex
+	flex-wrap: wrap;
+	border-radius .3em
+	overflow hidden
 	[label]
-		border-radius .3em
-		&:not(:first-child)
-			border-top-left-radius 0
-			border-bottom-left-radius 0
-		&:not(:last-child)
-			border-top-right-radius 0
-			border-bottom-right-radius 0
+		&:last-child
+			flex 1
 		display flex
+		flex 5
 		input
 			font 1em/3em Roboto
 			height 3em
@@ -72,56 +71,19 @@ form
 			color inherit
 			font inherit
 			flex 1
-			padding 0 .5em
 			&[type="submit"]
 				&[value=""]:before
 					padding-right 0
 				&[value=""]:after
 					padding-left 0
-				&[value=""]
-					display none
-				button::-moz-focus-inner
-					border 0
 		&[before]:before
 			padding-left .5em
-		&:not([before]:before)
-			padding-left 0
 		&[after]:after
 			padding-right .5em
+		&:not([before]:before)
+			padding-left 0
 		&:not([after]:after)
 			padding-right 0
-
-[input]
-	display flex
-	align-items center
-	border-radius .2em
-	background white
-	margin 1em
-	overflow hidden
-	&:before
-		content attr(before)
-		font-family 'Material Icons'
-		font-size 1.5em
-		text-transform lowercase
-	&[before]:before
-		padding-left .75em
-	&:not([before]:before)
-		padding-left 0
-	input
-		font 1em/3em Roboto
-		border none
-		padding 0 1em
-	input[type="text"]
-		flex 1
-		background-color inherit
-		color inherit
-	input[type="submit"]
-		transition all 1s ease
-		background-image linear-gradient(rgba(white,.1),rgba(black,.1))
-	input[type="submit"]:hover,input[type="submit"]:focus
-		background-image linear-gradient(rgba(black,.1),rgba(white,.1))
-	input[type="submit"]::-moz-focus-inner
-		border none
 
 [card~="radius"]
 	border-radius .3em
@@ -212,12 +174,20 @@ form
 			outline none
 
 [buttons~="3D"]
-	a,button
+	a,button,input
 		background-image linear-gradient(rgba(white,.1),rgba(black,.1))
 		&:hover,&:focus,&:active
 			background-image linear-gradient(rgba(black,.1),rgba(white,.1))
 [buttons~="border"]
-	a,button
+	input[type="submit "]
+		border 0
+		padding 0
+		&[before]
+		&[after]
+			padding-left 0
+			padding-right 0
+		border-radius 0
+	a,button,input
 		box-shadow 0 -1px 0 0 rgba(black,.1),
 				inset 0 1px 0 0 rgba(white,.1),
 				inset 0 -1px 0 0 rgba(black,.1),

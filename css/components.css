@@ -45,7 +45,8 @@ label input {
 }
 a,
 button,
-[label] {
+[label],
+[label]>input[type="submit"] {
   font: 1em/2em Roboto;
   display: inline-flex;
   align-items: center;
@@ -56,40 +57,42 @@ button,
 }
 a:before,
 button:before,
-[label]:before {
+[label]:before,
+[label]>input[type="submit"]:before {
   content: attr(before);
   padding-right: 0.25em;
 }
 a:after,
 button:after,
-[label]:after {
+[label]:after,
+[label]>input[type="submit"]:after {
   content: attr(after);
   padding-left: 0.25em;
 }
 a:before,
 button:before,
 [label]:before,
+[label]>input[type="submit"]:before,
 a:after,
 button:after,
-[label]:after {
+[label]:after,
+[label]>input[type="submit"]:after {
   font-family: 'Material Icons';
   font-size: 1.3em;
   text-transform: lowercase;
 }
 form {
   display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.3em;
+  overflow: hidden;
 }
 form [label] {
-  border-radius: 0.3em;
   display: flex;
+  flex: 5;
 }
-form [label]:not(:first-child) {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-form [label]:not(:last-child) {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+form [label]:last-child {
+  flex: 1;
 }
 form [label] input {
   font: 1em/3em Roboto;
@@ -99,7 +102,6 @@ form [label] input {
   color: inherit;
   font: inherit;
   flex: 1;
-  padding: 0 0.5em;
 }
 form [label] input[type="submit"][value=""]:before {
   padding-right: 0;
@@ -107,64 +109,17 @@ form [label] input[type="submit"][value=""]:before {
 form [label] input[type="submit"][value=""]:after {
   padding-left: 0;
 }
-form [label] input[type="submit"][value=""] {
-  display: none;
-}
-form [label] input[type="submit"] button::-moz-focus-inner {
-  border: 0;
-}
 form [label][before]:before {
   padding-left: 0.5em;
-}
-form [label]:not([before]:before) {
-  padding-left: 0;
 }
 form [label][after]:after {
   padding-right: 0.5em;
 }
-form [label]:not([after]:after) {
-  padding-right: 0;
-}
-[input] {
-  display: flex;
-  align-items: center;
-  border-radius: 0.2em;
-  background: #fff;
-  margin: 1em;
-  overflow: hidden;
-}
-[input]:before {
-  content: attr(before);
-  font-family: 'Material Icons';
-  font-size: 1.5em;
-  text-transform: lowercase;
-}
-[input][before]:before {
-  padding-left: 0.75em;
-}
-[input]:not([before]:before) {
+form [label]:not([before]:before) {
   padding-left: 0;
 }
-[input] input {
-  font: 1em/3em Roboto;
-  border: none;
-  padding: 0 1em;
-}
-[input] input[type="text"] {
-  flex: 1;
-  background-color: inherit;
-  color: inherit;
-}
-[input] input[type="submit"] {
-  transition: all 1s ease;
-  background-image: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.1));
-}
-[input] input[type="submit"]:hover,
-[input] input[type="submit"]:focus {
-  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.1));
-}
-[input] input[type="submit"]::-moz-focus-inner {
-  border: none;
+form [label]:not([after]:after) {
+  padding-right: 0;
 }
 [card~="radius"] {
   border-radius: 0.3em;
@@ -280,19 +235,34 @@ form [label]:not([after]:after) {
   outline: none;
 }
 [buttons~="3D"] a,
-[buttons~="3D"] button {
+[buttons~="3D"] button,
+[buttons~="3D"] input {
   background-image: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.1));
 }
 [buttons~="3D"] a:hover,
 [buttons~="3D"] button:hover,
+[buttons~="3D"] input:hover,
 [buttons~="3D"] a:focus,
 [buttons~="3D"] button:focus,
+[buttons~="3D"] input:focus,
 [buttons~="3D"] a:active,
-[buttons~="3D"] button:active {
+[buttons~="3D"] button:active,
+[buttons~="3D"] input:active {
   background-image: linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.1));
 }
+[buttons~="border"] input[type="submit "] {
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+}
+[buttons~="border"] input[type="submit "][before],
+[buttons~="border"] input[type="submit "][after] {
+  padding-left: 0;
+  padding-right: 0;
+}
 [buttons~="border"] a,
-[buttons~="border"] button {
+[buttons~="border"] button,
+[buttons~="border"] input {
   box-shadow: 0 -1px 0 0 rgba(0,0,0,0.1), inset 0 1px 0 0 rgba(255,255,255,0.1), inset 0 -1px 0 0 rgba(0,0,0,0.1), 0 1px 0 0 rgba(255,255,255,0.1);
 }
 input[type="text"]:invalid {
