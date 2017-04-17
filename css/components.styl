@@ -42,12 +42,16 @@ a,button,[label],[label]>input[type="submit"]
 	border 0
 	text-decoration none
 	text-transform uppercase
-	&:before
+	&[before]:before
 		content attr(before)
 		padding-right .25em
-	&:after
+	&:not([before]:before)
+		padding-right 0
+	&[after]:after
 		content attr(after)
 		padding-left .25em
+	&:not([after]:after)
+		padding-left 0
 	&:before,&:after
 		font-family 'Material Icons'
 		font-size 1.3em
@@ -59,31 +63,31 @@ form
 	border-radius .3em
 	overflow hidden
 	[label]
-		&:last-child
-			flex 1
+		&[submit],&[submit]>input
+			border-top-left-radius .3em
+		flex 1
 		display flex
-		flex 5
+		padding 0
+		&[before]:before
+			padding-left .5em
+		&[after]:after
+			padding-right .5em
 		input
+			padding 0
 			font 1em/3em Roboto
 			height 3em
 			flex 1
 			background-color inherit
 			color inherit
 			font inherit
-			flex 1
 			&[type="submit"]
-				&[value=""]:before
-					padding-right 0
-				&[value=""]:after
-					padding-left 0
-		&[before]:before
-			padding-left .5em
-		&[after]:after
-			padding-right .5em
-		&:not([before]:before)
-			padding-left 0
-		&:not([after]:after)
-			padding-right 0
+				transition all .5s ease
+				&:active
+					border-radius .2em
+					transform scale(.85)
+					border 0
+			&[type="submit"]::-moz-focus-inner
+				border 0	
 
 [card~="radius"]
 	border-radius .3em
