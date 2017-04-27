@@ -8,13 +8,16 @@
     <link href="css/components.css" rel="stylesheet">
     <link href="css/Roboto.css" rel="stylesheet">
     <link href="css/MaterialIcons.css" rel="stylesheet">
-    <link href="css/colors.css" rel="stylesheet">
+    <link href="css/colors-full.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="mobile-web-app-capable" content="yes">
   </head>
   <body StickyFooter color>
     <header color="BlueGrey">HEADER</header>
     <main color="BlueGrey:50">
+      <card title="Titulo" thumbnail="https://www.w3schools.com/css/trolltunga.jpg" content="Contenido">
+        <script var a="[{&quot;link&quot;:&quot;Google&quot;,&quot;href&quot;:&quot;http://google.es&quot;},{&quot;link&quot;:&quot;Yahoo&quot;,&quot;href&quot;:&quot;http://yahoo.es&quot;}]"></script>
+      </card>
       <div grid="1366:justify:center 1920:justify:around 360:1/1:21.9 640:1/2:21.9 800:1/2:21.9 1280:1/3:21.9 1366:1/4:21.9 1920:1/4:21.9">
         <div cell="640:1/1:21.9 800:1/1:21.9"><a name="card1"></a>
           <figure card="radius">
@@ -63,5 +66,8 @@
       </div>
     </main>
     <footer color="BlueGrey">FOOTER</footer>
+    <script src="js/riot+compiler.min.js"></script>
+    <script src="js/components.tag" type="riot/tag"></script>
+    <script>riot.mount('*',{link:a})</script>
   </body>
 </html>

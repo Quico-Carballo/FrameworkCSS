@@ -1,0 +1,19 @@
+doctype
+html(lang="es-ES")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		title Grid
+		style(type="text/css").
+			body{margin:.5em;}
+			.grid {display:grid; grid-template-columns:1fr 1fr; grid-gap:.5em;}
+			.grid>*{height:1em; background-color:#EEE; padding:.5em;}
+	body
+		.grid
+			div YO
+			div TU
+			div EL
+			div YO
+			div TU
+			div EL
+		script(src="css-polyfills.min.js")
