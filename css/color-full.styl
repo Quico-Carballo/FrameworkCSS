@@ -1,0 +1,51 @@
+@import palette-full
+for order in 1..10
+	for color, c in keys($palette)
+		for accent in keys(values($palette)[c])
+			if order == 1
+				[color~=\"{color}{accent}\"]
+					&
+						background-color palette(color,accent)[0]
+						color palette(color,accent)[1]
+			if order == 2
+				[color~=\"action:{color}{accent}\"]
+					&:hover,&:focus
+						background-color palette(color,accent)[0]
+						color palette(color,accent)[1]
+			if order == 3
+				[color~=\"txt:{color}{accent}\"]
+					&
+						color palette(color,accent)[0]
+			if order == 4
+				[color~=\"action:txt:{color}{accent}\"]
+					&:hover,&:focus
+						color palette(color,accent)[0]
+
+			if order == 5
+				[color~=\"a:{color}{accent}\"]
+					&>a
+						background-color palette(color,accent)[0]
+						color palette(color,accent)[1]
+			if order == 6
+				[color~=\"a:action:{color}{accent}\"]
+					&>a:hover,&>a:focus
+						background-color palette(color,accent)[0]
+						color palette(color,accent)[1]
+			if order == 7
+				[color~=\"a:border:{color}{accent}\"]
+					&>a
+						border-color palette(color,accent)[0]
+						color palette(color,accent)[0]
+			if order == 8
+				[color~=\"a:action:border:{color}{accent}\"]
+					&>a:hover,&>a:focus
+						border-color palette(color,accent)[0]
+						color palette(color,accent)[0]
+			if order == 9
+				[color~=\"a:txt:{color}{accent}\"]
+					&>a
+						color palette(color,accent)[0]
+			if order == 10
+				[color~=\"a:action:txt:{color}{accent}\"]
+					&>a:hover,&>a:focus
+						color palette(color,accent)[0]

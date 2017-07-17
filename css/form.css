@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+
+[select] {}
+[select] select {appearance: none; cursor: pointer;}
+[select] select::-ms-expand {display: none}
+
+[input] {}
+input{
+	border: 0;
+	line-height: 3em;
+	padding: 0 1em;
+}
+input[type="text"]{
+}
+input[type="button"]{
+	outline: none;
+}
+input::-moz-focus-inner{
+	border: none;
+}
+[buttons]>a{
+	text-decoration: none;
+	line-height: 3em;
+	padding: 0 1em;
+	text-align: center;
+	flex: 1;
+}
+
+figure[flex]{
+	margin: .2em;
+}
+figure>img{}
+figure>figcaption{
+	padding: 1em;
+	height: 200px;
+}

@@ -1,9 +1,0 @@
-@import palette-lite
-for bc, i in '''txt:''action:''action:txt:'
-	for color, c in keys($palette)
-		for accent in keys(values($palette)[c])
-			[color~=\"{bc}{color}{accent}\"]
-				action=i>1?'&:hover,&:focus':null
-				{action}
-					if !(i%2){background-color palette(color,accent)[0]}
-					color palette(color,accent)[i%2?0:1]

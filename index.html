@@ -1,73 +1,119 @@
 <!DOCTYPE html>
 <html lang="es-ES">
-  <head>
-    <title>Framework</title>
-    <meta charset="utf-8">
-    <meta name="theme-color" content="#607D8B">
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/components.css" rel="stylesheet">
-    <link href="css/Roboto.css" rel="stylesheet">
-    <link href="css/MaterialIcons.css" rel="stylesheet">
-    <link href="css/colors-full.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="mobile-web-app-capable" content="yes">
-  </head>
-  <body StickyFooter color>
-    <header color="BlueGrey">HEADER</header>
-    <main color="BlueGrey:50">
-      <card title="Titulo" thumbnail="https://www.w3schools.com/css/trolltunga.jpg" content="Contenido">
-        <script var a="[{&quot;link&quot;:&quot;Google&quot;,&quot;href&quot;:&quot;http://google.es&quot;},{&quot;link&quot;:&quot;Yahoo&quot;,&quot;href&quot;:&quot;http://yahoo.es&quot;}]"></script>
-      </card>
-      <div grid="1366:justify:center 1920:justify:around 360:1/1:21.9 640:1/2:21.9 800:1/2:21.9 1280:1/3:21.9 1366:1/4:21.9 1920:1/4:21.9">
-        <div cell="640:1/1:21.9 800:1/1:21.9"><a name="card1"></a>
-          <figure card="radius">
-            <header><img src="img/face.png">
-              <div><strong>Julio Verne</strong><small>Aventurero</small></div>
-            </header><img src="img/1.jpg">
-            <h3>Diez años de teletrabajo</h3>
-            <footer buttons="border 3D" color="BlueGrey"><a href="#card1" before="work" color="BlueGrey:700 action:BlueGrey:900">Trabajo</a><a href="#card1" before="home" color="BlueGrey:700 action:BlueGrey:900">Casa</a></footer>
-            <figcaption color="BlueGrey:700">Tras diez años de teletrabajo, esto puedo decir sobre los mitos y realidades de trabajar desde casa.</figcaption>
-          </figure>
-        </div>
-        <div cell><a name="card2"></a>
-          <figure card="radius"><img src="img/2.jpg">
-            <h3>Octava beta de macOS Sierra</h3>
-            <footer buttons="border 3D" color="BlueGrey"><a href="#card2" before="laptop" color="BlueGrey:700 action:BlueGrey:900">MacBook</a><a href="#card2" before="laptop_mac" color="BlueGrey:700 action:BlueGrey:900">Pro</a></footer>
-            <figcaption color="BlueGrey:700">¡Betas! La octava de macOS Sierra 10.12.4 y la séptima de watchOS 3.2 ya disponibles.</figcaption>
-          </figure>
-        </div>
-        <div cell><a name="card3"></a>
-          <figure card="radius"><img src="img/3.jpg">
-            <h3>Séptima beta de iOS</h3>
-            <footer buttons="border 3D" color="BlueGrey"><a href="#card3" before="desktop_mac" color="BlueGrey:700 action:BlueGrey:900">IOS</a><a href="#card3" before="phone_iphone" color="BlueGrey:700 action:BlueGrey:900">MacOS</a></footer>
-            <figcaption color="BlueGrey:700">Apple lanza la séptima beta de iOS 10.3 y macOS 10.12.4 para desarrolladores.</figcaption>
-          </figure>
-        </div>
-      </div>
-      <div grid="360:justify:center">
-        <div cell>
-          <form>
-            <label label before="account_circle" color="BlueGrey txt:White">
-              <input placeholder="Usuario">
-            </label>
-            <label label before="lock" color="BlueGrey txt:White">
-              <input type="password" placeholder="Contraseña">
-            </label>
-            <label label submit buttons="border 3D" color="BlueGrey:700 action:BlueGrey:900 txt:White">
-              <input type="submit" value="Entrar">
-            </label>
-          </form><br>
-          <form>
-            <label label before="search" color="BlueGrey txt:White">
-              <input placeholder="Buscar">
-            </label>
-          </form><br>
-        </div>
-      </div>
-    </main>
-    <footer color="BlueGrey">FOOTER</footer>
-    <script src="js/riot+compiler.min.js"></script>
-    <script src="js/components.tag" type="riot/tag"></script>
-    <script>riot.mount('*',{link:a})</script>
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter|Acme|Akronim|Aladin|Amaranth|Amarante|Arvo|Asap|Averia+Libre|Bad+Script|Baloo|Bellefair|Cabin|Cabin+Condensed|Cabin+Sketch|Capriola|Caveat|Chicle|Chivo|Codystar|Coming+Soon|Cookie|Courgette|Creepster|Damion|Delius+Swash+Caps|Dosis|Ewert|Exo|Exo+2|Faster+One|Finger+Paint|Fredericka+the+Great|Fondamento|Fresca|Frijole|Fugaz+One|Galada|Gentium+Basic|Gentium+Book+Basic|Handlee|IM+Fell+DW+Pica|Indie+Flower|Itim|Jacques+Francois+Shadow|Josefin+Sans|Josefin+Slab|Julee|Kalam|Kaushan+Script|Kavoon|Kite+One|Kurale|Lato|Lemonada|Libre+Baskerville|Lobster|Londrina+Outline|Londrina+Shadow|Londrina+Sketch|Love+Ya+Like+A+Sister|Material+Icons|Merienda|Merienda+One|Merriweather|Merriweather+Sans|Modak|Modern+Antiqua|Mogra|Monoton|Monserrat|Mystery+Quest|Neucha|Nobile|Nosifer|Noto+Sans|Noto+Serif|NTR|Nunito|Open+Sans|Open+Sans+Condensed:300|Orbitron|Original+Surfer|Oswald|Overlock|Pacifico|Paprika|Patua+One|Peralta|Permanent+Marker|Pirata+One|Play|Playfair+Display|Playfair+Display+SC|Questrial|Quicksand|Raleway|Raleway+Dots|Rancho|Revalia|Roboto|Roboto+Condensed|Roboto+Slab|Roboto+Mono|Rye|Sacramento|Salsa|Satisfy|Sancreek|Shrikhand|Signika|Signika+Negative|Smokum|Snippet|Special+Elite|Spectral|Sunshiney|Tangerine|Titillium|Titillium+Web|Trade+Winds|Ubuntu|UnifrakturCook:700|UnifrakturMaguntia|Varela|Varela+Round|Vast+Shadow|Vollkorn">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/color-full.css">
+	<link rel="stylesheet" href="css/font.css">
+	<style>
+		figure{width: 19em}
+	</style>
+	<title>Home - Solo mira atrás</title>
+</head>
+<body flex="column" font="Raleway">
+	
+	<header color="LightGreen:600 txt:White" font="Trade+Winds" style="text-align: center;">
+		<h1>SOLO MIRA ATRÁS</h1>
+		<h2>Home</h2>
+	</header>
+	<nav color="LightGreen a:action:White a:txt:White a:action:txt:LightGreen" flex="wrap justify:center" font="Questrial">
+		<a href="index.html" icon-top="home">Home</a>
+		<a href="palette.html" icon-top="palette">Palette</a>
+		<a href="tipography.html" icon-top="font_download">Typography</a>
+		<a href="grid.html" icon-top="grid_on">Grid</a>
+		<a href="component.html" icon-top="web">Component</a>
+	</nav>
+
+	<div item="1" flex="justify:around">
+		<aside item="1:5">Aside Left</aside>
+		<main item="1" flex="wrap justify:center">
+
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+			</figure>
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+			</figure>
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+			</figure>
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+			</figure>
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+			</figure>
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+			</figure>
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+				<div flex buttons font="Amaranth">
+					<a color="Grey:600" href="#">Enlace</a>
+					<a color="Grey:600" href="#">Enlace</a>
+				</div>
+				<figcaption color="grey:100">Soy la descripción de una Card</figcaption>
+			</figure>
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+				<div flex buttons font="Amaranth">
+					<a color="Grey:600" href="#">Enlace</a>
+					<a color="Grey:600" href="#">Enlace</a>
+				</div>
+				<figcaption color="grey:100">Soy la descripción de una Card</figcaption>
+			</figure>
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+				<div flex buttons font="Amaranth">
+					<a color="Grey:600" href="#">Enlace</a>
+					<a color="Grey:600" href="#">Enlace</a>
+				</div>
+				<figcaption color="grey:100">Soy la descripción de una Card</figcaption>
+			</figure>
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+				<div flex buttons font="Amaranth">
+					<a color="Grey:600" href="#">Enlace</a>
+					<a color="Grey:600" href="#">Enlace</a>
+				</div>
+				<figcaption color="grey:100">Soy la descripción de una Card</figcaption>
+			</figure>
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+				<div flex buttons font="Amaranth">
+					<a color="Grey:600" href="#">Enlace</a>
+					<a color="Grey:600" href="#">Enlace</a>
+				</div>
+				<figcaption color="grey:100">Soy la descripción de una Card</figcaption>
+			</figure>
+			<figure flex="inline column">
+				<img src="http://fakeimg.pl/320x200/?text=Hello" alt="">
+				<div flex buttons font="Amaranth">
+					<a color="Grey:600" href="#">Enlace</a>
+					<a color="Grey:600" href="#">Enlace</a>
+				</div>
+				<figcaption color="grey:100">Soy la descripción de una Card</figcaption>
+			</figure>
+<!--
+			<figure flex="items:start">
+				<img style="margin-right: 1em;" src="http://fakeimg.pl/80x80/000000,128/000" alt="">
+				<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem mollitia ut, soluta illum laboriosam corporis et iusto temporibus animi libero quaerat ducimus nihil, laudantium, facere cupiditate nulla, voluptatum praesentium commodi!</figcaption>
+			</figure>
+			<a href="#" icon-right="new" icon-left="new">Soy un nuevo enlace con un icono a la derecha</a>
+			<div input flex="inline">
+				<input color="Grey:200" item="1" type="text" name="" id="">
+				<input color="Grey:600" type="button" value="Acción">
+			</div>
+-->
+		</main>
+		<aside item="1:5">Aside Right</aside>
+	</div>
+
+	<footer color="LightGreen:600 txt:LightGreen:50" font="" style="text-align: center; line-height: 3em;">JUSTLOOKBACK.com - SOLOMIRAATRAS.es 2017</footer>
+
+</body>
 </html>
